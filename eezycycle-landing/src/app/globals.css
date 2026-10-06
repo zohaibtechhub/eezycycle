@@ -63,30 +63,78 @@
 
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
+  --font-display: var(--font-outfit);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #140f11;
-    --surface: #221a1e;
-    --primary: #f47294;
-    --foreground: #f9f5f6;
-    --text-primary: #f9f5f6;
-    --text-secondary: #b5a7ac;
-    --border: #382b31;
-
-    --period: #ff5472;
-    --ovulation: #fbbf24;
-    --fertility: #a78bfa;
-    --pregnancy: #34d399;
-    --perimenopause: #c084fc;
-
-    --gradient-soft: linear-gradient(to bottom right, #221a1e, #140f11, #221a1e);
+@media (prefers-reduced-motion: reduce) {
+  .animate-fade-up,
+  .animate-float,
+  .animate-gradient-drift {
+    animation: none !important;
   }
+}
+
+@keyframes fade-up {
+  from {
+    opacity: 0;
+    transform: translateY(16px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes float {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+@keyframes gradient-drift {
+  0%,
+  100% {
+    opacity: 0.55;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 0.85;
+    transform: scale(1.04);
+  }
+}
+
+.animate-fade-up {
+  animation: fade-up 0.9s ease both;
+}
+
+.animate-float {
+  animation: float 5.5s ease-in-out infinite;
+}
+
+.animate-gradient-drift {
+  animation: gradient-drift 12s ease-in-out infinite;
+}
+
+.font-display {
+  font-family: var(--font-outfit), var(--font-geist-sans), system-ui, sans-serif;
 }
 
 body {
   background: var(--background);
   color: var(--text-primary);
   font-family: var(--font-sans), Arial, Helvetica, sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
 }
