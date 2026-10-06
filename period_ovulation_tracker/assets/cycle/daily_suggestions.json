@@ -1,0 +1,197 @@
+{
+  "version": 2,
+  "tips": [
+    {
+      "id": "menstrual_food_1",
+      "phase": "menstrual",
+      "category": "food",
+      "title": "Iron-friendly lunch",
+      "body": "Build a plate with lentils or leafy greens plus something vitamin-C rich (citrus, peppers). Pair with a carb you enjoy so it actually gets eaten.",
+      "image": "assets/cycle/images/tip_food.jpg"
+    },
+    {
+      "id": "menstrual_rest_2",
+      "phase": "menstrual",
+      "category": "rest",
+      "title": "Heat + 10 quiet minutes",
+      "body": "Warm compress on your lower abdomen and a phone-free pause can take the edge off cramps better than pushing through.",
+      "image": "assets/cycle/images/tip_rest.jpg"
+    },
+    {
+      "id": "menstrual_exercise_3",
+      "phase": "menstrual",
+      "category": "exercise",
+      "title": "Easy stroll only",
+      "body": "If flow is heavy, skip intense sessions. A short flat walk or gentle stretch is enough movement today.",
+      "image": "assets/cycle/images/tip_exercise.jpg"
+    },
+    {
+      "id": "menstrual_wellness_4",
+      "phase": "menstrual",
+      "category": "wellness",
+      "title": "Softer schedule",
+      "body": "Leave buffer between meetings and say no to one optional plan if energy is low.",
+      "image": "assets/cycle/images/tip_wellness.jpg"
+    },
+    {
+      "id": "menstrual_food_5",
+      "phase": "menstrual",
+      "category": "food",
+      "title": "Warm comfort bowl",
+      "body": "Soup or warm oats often sit better than cold food when cramps are active.",
+      "image": "assets/cycle/images/tip_food.jpg"
+    },
+    {
+      "id": "menstrual_rest_6",
+      "phase": "menstrual",
+      "category": "rest",
+      "title": "Earlier bedtime",
+      "body": "Pain can fragment sleep \u2014 start wind-down 30 minutes earlier tonight.",
+      "image": "assets/cycle/images/tip_rest.jpg"
+    },
+    {
+      "id": "follicular_exercise_1",
+      "phase": "follicular",
+      "category": "exercise",
+      "title": "Strength window",
+      "body": "This phase often feels best for lifting or a challenging class \u2014 keep form clean and stop with 1\u20132 reps in reserve.",
+      "image": "assets/cycle/images/tip_exercise.jpg"
+    },
+    {
+      "id": "follicular_food_2",
+      "phase": "follicular",
+      "category": "food",
+      "title": "Protein breakfast",
+      "body": "Eggs, yogurt, tofu, or a protein smoothie within an hour of waking sets up steadier morning energy.",
+      "image": "assets/cycle/images/tip_food.jpg"
+    },
+    {
+      "id": "follicular_wellness_3",
+      "phase": "follicular",
+      "category": "wellness",
+      "title": "Start one tiny habit",
+      "body": "Stack a 2-minute habit onto something you already do (after coffee, after brushing teeth).",
+      "image": "assets/cycle/images/tip_wellness.jpg"
+    },
+    {
+      "id": "follicular_rest_4",
+      "phase": "follicular",
+      "category": "rest",
+      "title": "Still sleep well",
+      "body": "Rising energy isn\u2019t a reason to cut sleep short \u2014 protect your bedtime like a meeting.",
+      "image": "assets/cycle/images/tip_rest.jpg"
+    },
+    {
+      "id": "follicular_food_5",
+      "phase": "follicular",
+      "category": "food",
+      "title": "Colorful produce x2",
+      "body": "Two different fruits or veggies today support micronutrients as training ramps up.",
+      "image": "assets/cycle/images/tip_food.jpg"
+    },
+    {
+      "id": "follicular_exercise_6",
+      "phase": "follicular",
+      "category": "exercise",
+      "title": "Joy movement",
+      "body": "Add one session you love (dance, hike, class) so training doesn\u2019t feel like punishment.",
+      "image": "assets/cycle/images/tip_exercise.jpg"
+    },
+    {
+      "id": "ovulation_wellness_1",
+      "phase": "ovulation",
+      "category": "wellness",
+      "title": "Fertile-day awareness",
+      "body": "Timing estimates aren\u2019t birth control. If you\u2019re preventing pregnancy, be consistent with your method this window.",
+      "image": "assets/cycle/images/tip_wellness.jpg"
+    },
+    {
+      "id": "ovulation_exercise_2",
+      "phase": "ovulation",
+      "category": "exercise",
+      "title": "Enjoy peak energy",
+      "body": "Channel today\u2019s lift into movement you love \u2014 hard is fine if you feel strong and recovered.",
+      "image": "assets/cycle/images/tip_exercise.jpg"
+    },
+    {
+      "id": "ovulation_food_3",
+      "phase": "ovulation",
+      "category": "food",
+      "title": "Don\u2019t skip meals",
+      "body": "Busy social or date days still need real food; pair caffeine with a meal if you\u2019re sensitive.",
+      "image": "assets/cycle/images/tip_food.jpg"
+    },
+    {
+      "id": "ovulation_rest_4",
+      "phase": "ovulation",
+      "category": "rest",
+      "title": "Protect tomorrow",
+      "body": "High-energy nights add up \u2014 keep at least one early bedtime this week.",
+      "image": "assets/cycle/images/tip_rest.jpg"
+    },
+    {
+      "id": "ovulation_wellness_5",
+      "phase": "ovulation",
+      "category": "wellness",
+      "title": "Clarify your goal",
+      "body": "TTC, open, or preventing? A clear intention reduces anxiety during fertile days.",
+      "image": "assets/cycle/images/tip_wellness.jpg"
+    },
+    {
+      "id": "ovulation_food_6",
+      "phase": "ovulation",
+      "category": "food",
+      "title": "Hydration bump",
+      "body": "More activity and social plans usually need more water \u2014 keep a bottle visible.",
+      "image": "assets/cycle/images/tip_food.jpg"
+    },
+    {
+      "id": "luteal_food_1",
+      "phase": "luteal",
+      "category": "food",
+      "title": "Craving-smart snack",
+      "body": "Pair something sweet with protein or nuts so you stay satisfied longer and avoid the crash.",
+      "image": "assets/cycle/images/tip_food.jpg"
+    },
+    {
+      "id": "luteal_rest_2",
+      "phase": "luteal",
+      "category": "rest",
+      "title": "Earlier wind-down",
+      "body": "Progesterone can disrupt sleep for some \u2014 dim screens and start bedtime earlier.",
+      "image": "assets/cycle/images/tip_rest.jpg"
+    },
+    {
+      "id": "luteal_exercise_3",
+      "phase": "luteal",
+      "category": "exercise",
+      "title": "Steady, not max",
+      "body": "Choose strength, yoga, or a brisk walk over all-out HIIT if you feel flat or bloated.",
+      "image": "assets/cycle/images/tip_exercise.jpg"
+    },
+    {
+      "id": "luteal_wellness_4",
+      "phase": "luteal",
+      "category": "wellness",
+      "title": "Mood buffer",
+      "body": "Plan one low-stimulation hour for yourself before evening stress stacks.",
+      "image": "assets/cycle/images/tip_wellness.jpg"
+    },
+    {
+      "id": "luteal_food_5",
+      "phase": "luteal",
+      "category": "food",
+      "title": "Warm dinner plate",
+      "body": "Soup, rice bowls, or roasted veggies often feel better than cold salads premenstrually.",
+      "image": "assets/cycle/images/tip_food.jpg"
+    },
+    {
+      "id": "luteal_wellness_6",
+      "phase": "luteal",
+      "category": "wellness",
+      "title": "Deadline triage",
+      "body": "If PMS is rising, move one non-urgent hard conversation or deadline if you can.",
+      "image": "assets/cycle/images/tip_wellness.jpg"
+    }
+  ]
+}

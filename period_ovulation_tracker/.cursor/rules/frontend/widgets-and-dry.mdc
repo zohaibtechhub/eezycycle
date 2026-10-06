@@ -1,0 +1,59 @@
+---
+description: Reuse existing custom widgets and DRY utilities instead of rebuilding UI
+globs: lib/**/*.dart
+alwaysApply: false
+---
+
+# Custom Widgets & DRY
+
+Prefer existing widgets/utils over one-off Material rebuilds. If the same UI appears twice, extract to `lib/widgets/<type>/`.
+
+## Required building blocks
+
+| Need | Use | Path |
+|------|-----|------|
+| Text | `TextWidget` | `widgets/text/text_widget.dart` |
+| Rich / legal text | `CustomRichText` | `widgets/text/custom_rich_text.dart` |
+| Primary CTA | `CustomButton` | `widgets/button/custom_button.dart` |
+| Link / skip | `CustomTextButton` | `widgets/button/text_button.dart` |
+| Form field | `CustomTextField` | `widgets/text_field/custom_text_field.dart` |
+| Tappable bordered box | `CustomContainer` | `widgets/common/custom_container.dart` |
+| Onboarding options | `SelectableContainer` / `WhatLikeContainer` | `widgets/container/` |
+| Snackbars | `ShortMessageUtils` | `core/utils/short_message.dart` |
+| Spacing | `AppSize.h*` / `w*` / `getHeight` | `core/utils/app_size.dart` |
+| Validation | `Validators.*` | `core/utils/validators.dart` |
+| Date/time pickers | `CommonUtils.*` | `core/utils/common_utils.dart` |
+
+Also prefer: `InsightContainer`, `RecommendationCard`, `AttentionContainer`, `CustomCheckbox`, `OnboardingHeader`, `DrawerTile`, home headers under `widgets/header/` and `widgets/home/`.
+
+## Examples
+
+```dart
+// ❌ BAD
+Text('Continue', style: TextStyle(fontSize: 15, fontWeight: FontWeight.w500));
+ElevatedButton(onPressed: onTap, child: Text('Continue'));
+ScaffoldMessenger.of(context).showSnackBar(...);
+Padding(padding: EdgeInsets.all(16), …);
+
+// ✅ GOOD
+TextWidget(title: 'Continue');
+CustomButton(title: 'Continue', onTap: onTap);
+ShortMessageUtils.showSuccess(context, msg);
+Padding(padding: EdgeInsets.all(AppSize.getHeight(16)), …);
+// or AppSize.h2 / AppSize.w5 where those helpers fit
+```
+
+## Anti-patterns
+
+- Raw `Text` / `ElevatedButton` / ad-hoc fields for standard app UI
+- Hardcoded colors/paths/spacing when `AppColors` / `AppImages` / `AppSize` exist
+- Duplicating selection rows instead of `SelectableContainer` / `WhatLikeContainer`
+- New state/routing libs (Riverpod, Bloc, go_router) — stick to GetX + `AppPages`
+- Treating stubs as real UI (`QuickStepContainer` is a `Placeholder`)
+
+## When adding a widget
+
+1. Put it under `lib/widgets/<type>/`
+2. Name `custom_*.dart` or a clear descriptive name
+3. Parameterize colors via `AppColors` / theme; assets via `AppImages`
+4. Reuse `TextWidget` / `AppSize` inside the new widget

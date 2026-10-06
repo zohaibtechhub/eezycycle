@@ -1,0 +1,61 @@
+---
+description: eezycycle-landing — colors from globals.css, folder structure, DRY
+alwaysApply: true
+---
+
+# eezycycle-landing Conventions
+
+Apply whenever creating or editing files under `eezycycle-landing/`.
+
+## Colors (mandatory)
+
+Use **only** tokens from `eezycycle-landing/src/app/globals.css`. Do not invent hex/rgb/hsl in components, Tailwind arbitrary values, or inline styles.
+
+```tsx
+// ❌ BAD
+className="bg-[#E85078] text-[#1E1719]"
+style={{ color: '#E85078' }}
+
+// ✅ GOOD — Tailwind theme tokens
+className="bg-primary text-text-primary border-border"
+
+// ✅ GOOD — CSS variables when needed
+style={{ background: 'var(--gradient-app)' }}
+```
+
+| Need | Token |
+|------|--------|
+| Brand | `primary`, `primary-light`, `secondary`, `accent` |
+| Surfaces | `background`, `surface`, `border` |
+| Text | `text-primary`, `text-secondary`, `foreground` |
+| Cycle | `period`, `ovulation`, `fertility`, `pregnancy`, `perimenopause` |
+| Feedback | `success`, `warning`, `error`, `info` |
+| Gradients | `var(--gradient-app)`, `var(--gradient-soft)`, … |
+
+New brand colors → add to `:root` + `@theme inline` in `globals.css` first, then use them.
+
+## Folder structure
+
+```
+eezycycle-landing/src/
+├── app/                 # routes only (page, layout, loading, metadata)
+│   ├── globals.css      # single source of color tokens
+│   ├── layout.tsx
+│   └── page.tsx
+├── components/          # UI pieces
+│   ├── ui/              # reusable primitives (Button, Section, …)
+│   └── sections/        # page sections (Hero, Features, …)
+├── lib/                 # shared helpers, constants (non-UI)
+└── hooks/               # shared React hooks
+```
+
+- Keep `app/` thin: compose sections, no duplicated markup across pages
+- Shared UI → `components/ui/`; one-off page blocks → `components/sections/`
+- No parallel roots (`helpers/`, `common/`, `shared/` beside the above)
+
+## DRY
+
+1. Same markup/styles twice → extract a component under `components/`
+2. Same logic twice → extract to `lib/` or `hooks/`
+3. Do not copy color/spacing “one-offs”; extend tokens or shared components
+4. Prefer composition over large monolithic `page.tsx` files

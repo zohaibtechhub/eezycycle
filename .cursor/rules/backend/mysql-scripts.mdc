@@ -1,0 +1,59 @@
+---
+description: MySQL schema/migration conventions for eezycycle-backend
+globs: eezycycle-backend/**/*.{sql,js}
+alwaysApply: false
+---
+
+# MySQL Scripts
+
+SQL lives under `eezycycle-backend/sql/`. App queries go through `repositories/`, not raw strings in controllers.
+
+**Runtime:** MySQL is managed via **phpMyAdmin** (see `mysql-phpmyadmin.mdc`). Ship SQL for Import/SQL tab; do not rely on Homebrew MySQL.
+
+## Layout
+
+```
+sql/
+├── schema/       # full CREATE DATABASE / CREATE TABLE
+├── migrations/   # incremental, ordered
+└── seeds/        # optional
+```
+
+## Conventions
+
+- Database: `eezycycle`, charset `utf8mb4`, collation `utf8mb4_unicode_ci`
+- Engine: `InnoDB`
+- PKs: `BIGINT UNSIGNED AUTO_INCREMENT` unless justified otherwise
+- Timestamps: `created_at`, `updated_at` on mutable tables
+- Soft delete: `deleted_at DATETIME NULL` where useful
+- Migration files: `NNN_description.sql` (`001_create_users.sql`)
+
+## Examples
+
+```sql
+-- ❌ BAD
+CREATE TABLE users (id INT, email TEXT);
+
+-- ✅ GOOD
+CREATE TABLE users (
+  id BIGINT UNSIGNED NOT NULL AUTO_INCREMENT PRIMARY KEY,
+  email VARCHAR(255) NULL,
+  created_at DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  updated_at DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+  deleted_at DATETIME NULL,
+  UNIQUE KEY uq_users_email (email)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+```
+
+```js
+// ❌ BAD — SQL in controller
+// ✅ GOOD — repository function + parameterized query
+await userRepo.findById(id); // uses ? placeholders, never string concat
+```
+
+## Safety
+
+- Always parameterized queries (`?` / named binds) — no string-built SQL with user input
+- Health / intimate columns: follow sensitivity tiers in `period_ovulation_tracker/docs/backend/02-mysql-table-structure.md`
+- Never log Tier 3 (intimate) plaintext; never expose partner APIs to intimate subsets
+- Prefer migrations over editing old schema files that already ran in shared envs

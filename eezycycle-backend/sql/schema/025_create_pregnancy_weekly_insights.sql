@@ -1,0 +1,35 @@
+-- Pregnancy weekly insights CMS (Flo-style daily insights) [T0 public CMS].
+-- Import in phpMyAdmin → database eezycycle → Import / SQL tab.
+
+CREATE TABLE IF NOT EXISTS pregnancy_weekly_insights (
+  id BIGINT UNSIGNED NOT NULL AUTO_INCREMENT PRIMARY KEY,
+  week TINYINT UNSIGNED NOT NULL COMMENT 'Gestational completed weeks 1-40+',
+  day_in_week TINYINT NOT NULL DEFAULT -1 COMMENT '-1 = whole week; 0-6 = day override',
+  locale VARCHAR(8) NOT NULL DEFAULT 'en',
+  baby_title VARCHAR(255) NOT NULL,
+  baby_short_summary TEXT NOT NULL,
+  baby_size_label VARCHAR(64) NULL,
+  baby_size_asset VARCHAR(255) NULL,
+  baby_illustration_asset VARCHAR(255) NULL,
+  baby_body_markdown MEDIUMTEXT NULL,
+  baby_length_cm DECIMAL(5,1) NULL,
+  baby_weight_g INT NULL,
+  baby_milestones_json JSON NULL,
+  body_title VARCHAR(255) NOT NULL,
+  body_short_summary TEXT NOT NULL,
+  body_illustration_asset VARCHAR(255) NULL,
+  body_body_markdown MEDIUMTEXT NULL,
+  body_highlights_json JSON NULL,
+  symptoms_title VARCHAR(255) NOT NULL DEFAULT 'Symptoms',
+  symptoms_common_keys_json JSON NOT NULL,
+  symptoms_tip TEXT NULL,
+  stories_json JSON NOT NULL,
+  what_to_expect_json JSON NOT NULL,
+  is_published TINYINT(1) NOT NULL DEFAULT 1,
+  published_at DATETIME NULL,
+  created_at DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  updated_at DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+  UNIQUE KEY uq_preg_insights_week_day_locale (week, day_in_week, locale),
+  KEY idx_preg_insights_week (week),
+  KEY idx_preg_insights_published (is_published)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;

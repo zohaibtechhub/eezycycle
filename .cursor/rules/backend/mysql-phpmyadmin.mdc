@@ -1,0 +1,20 @@
+---
+description: MySQL is managed via phpMyAdmin — do not use Homebrew MySQL
+alwaysApply: true
+---
+
+# MySQL via phpMyAdmin
+
+This project uses **MySQL through phpMyAdmin** (XAMPP / MAMP / similar), **not** Homebrew `mysql` / `brew services`.
+
+## Agent rules
+
+- Do **not** run `brew services start mysql`, `brew services stop mysql`, or assume `/tmp/mysql.sock` / Homebrew MySQL is the database.
+- Do **not** treat a failed local Homebrew socket as “MySQL is missing” — the real server is whatever phpMyAdmin is connected to.
+- Deliver schema/migrations as files under `eezycycle-backend/sql/` for the user to **import/run in phpMyAdmin**.
+- Prefer giving clear phpMyAdmin steps (Import / SQL tab, database `eezycycle`) over attempting CLI `mysql` against an unknown socket.
+- Only use the `mysql` CLI if the user confirms host/port/socket/credentials that match their phpMyAdmin setup.
+
+## Default app config
+
+Backend `.env` typically targets the same server phpMyAdmin uses (often `127.0.0.1:3306`, user `root`, empty or local password, database `eezycycle`). Confirm with the user if connection fails — do not switch to Homebrew MySQL as a fix.

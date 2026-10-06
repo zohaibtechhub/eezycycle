@@ -1,0 +1,754 @@
+{
+  "tips": [
+    {
+      "id": "tip_01",
+      "title": "Ask \"comfort or solutions?\"",
+      "description": "When she shares stress, ask what she needs before problem-solving.",
+      "body": "Partners often jump into fix-it mode because they care. Many people sharing hard feelings want presence first—validation and listening. Asking one clarifying question protects both of you from mismatched support.\n\nKeep the tone soft and curious, not clinical.",
+      "category": "Communication",
+      "icon": "chat",
+      "time_to_read": "2 min",
+      "try_this": "Next time she vents, ask: \"Do you want comfort or solutions right now?\" Then follow her answer.",
+      "takeaways": [
+        "Clarify before advising",
+        "Listening is active support",
+        "One question prevents friction"
+      ]
+    },
+    {
+      "id": "tip_02",
+      "title": "Validate without over-explaining",
+      "description": "A simple \"That sounds exhausting—I hear you\" often heals more than a lecture.",
+      "body": "Validation does not mean you agree with every detail. It means you accept her emotional experience as real. Over-explaining can feel like debating her feelings instead of standing with her.\n\nShort, warm acknowledgments lower defensiveness.",
+      "category": "Communication",
+      "icon": "hearing",
+      "time_to_read": "1 min",
+      "try_this": "Try: \"That sounds really heavy. I am here with you.\" Then pause.",
+      "takeaways": [
+        "Feelings are not puzzles to solve",
+        "Brevity can feel safer",
+        "Pause after validating"
+      ]
+    },
+    {
+      "id": "tip_03",
+      "title": "Text with zero pressure",
+      "description": "A midday check-in with no expectation of an instant reply builds safety.",
+      "body": "A low-pressure message says: I thought of you, and your reply schedule is respected. Avoid stacking follow-ups if she does not answer right away—space is part of the gift.",
+      "category": "Communication",
+      "icon": "phone",
+      "time_to_read": "1 min",
+      "try_this": "Send: \"Thinking of you—no need to reply. Hope your afternoon is kind.\"",
+      "takeaways": [
+        "Low pressure equals high trust",
+        "Do not chase replies",
+        "Small check-ins compound"
+      ]
+    },
+    {
+      "id": "tip_04",
+      "title": "Reflect what you heard",
+      "description": "Paraphrase her point before adding yours—it proves you were listening.",
+      "body": "Reflection is a bridge. When someone feels accurately understood, they are more open to your perspective. You do not need perfect wording—just enough to show you tracked the heart of what she said.",
+      "category": "Communication",
+      "icon": "hearing",
+      "time_to_read": "2 min",
+      "try_this": "Say: \"So what I am hearing is… Did I get that right?\"",
+      "takeaways": [
+        "Understanding before advising",
+        "Ask if you got it right",
+        "Great for conflict repair"
+      ]
+    },
+    {
+      "id": "tip_05",
+      "title": "Repair after a sharp moment",
+      "description": "A quick, specific apology after tension resets the emotional climate.",
+      "body": "Every couple has snap moments. What matters is the repair. Vague apologies can feel hollow. Specific ones name the impact and show care. Repair early—before resentment writes the story of the day.",
+      "category": "Communication",
+      "icon": "heart_hand",
+      "time_to_read": "2 min",
+      "try_this": "Try: \"I am sorry I got sharp earlier. You did not deserve that tone.\"",
+      "takeaways": [
+        "Specific beats vague",
+        "Repair beats rumination",
+        "Tone matters as much as words"
+      ]
+    },
+    {
+      "id": "tip_06",
+      "title": "Ask one curious question",
+      "description": "Curious questions invite closeness; interrogations create distance.",
+      "body": "Curiosity sounds like interest, not investigation. Soft openers help her share without feeling evaluated. Follow her energy—if she opens up, stay there; if she deflects, do not push.",
+      "category": "Communication",
+      "icon": "chat",
+      "time_to_read": "1 min",
+      "try_this": "Ask: \"What part of today felt the heaviest or the nicest?\"",
+      "takeaways": [
+        "Curiosity softens connection",
+        "One good question is enough",
+        "Follow her energy"
+      ]
+    },
+    {
+      "id": "tip_07",
+      "title": "Do not debate her feelings",
+      "description": "Feelings can be messy and still deserve respect in the moment.",
+      "body": "You can care about accuracy and still prioritize emotional safety first. Debating whether she should feel something usually escalates. Stay with the feeling; revisit logistics later when both are calmer.",
+      "category": "Communication",
+      "icon": "shield",
+      "time_to_read": "2 min",
+      "try_this": "When tempted to argue the facts, first name the emotion you notice.",
+      "takeaways": [
+        "Safety first, facts later",
+        "Emotions are not courtroom evidence",
+        "Calm timing improves clarity"
+      ]
+    },
+    {
+      "id": "tip_08",
+      "title": "Use soft startups",
+      "description": "Gentle openings lower defensiveness more than \"we need to talk.\"",
+      "body": "How a conversation starts often predicts how it ends. Soft startups name the issue without blame and include your need kindly. Hard startups trigger armor.",
+      "category": "Communication",
+      "icon": "chat",
+      "time_to_read": "2 min",
+      "try_this": "Open with: \"I would love your help with something that has been on my mind…\"",
+      "takeaways": [
+        "Tone sets the outcome",
+        "Blame raises walls",
+        "Invite collaboration"
+      ]
+    },
+    {
+      "id": "tip_09",
+      "title": "Celebrate her wins out loud",
+      "description": "Say the proud thing—do not assume she already knows.",
+      "body": "Many people minimize their own accomplishments. Hearing pride from a partner makes wins feel real and shared. Be specific: name the effort, not just the outcome.",
+      "category": "Communication",
+      "icon": "sparkle",
+      "time_to_read": "1 min",
+      "try_this": "Text or tell her one specific thing you are proud of today.",
+      "takeaways": [
+        "Specific praise sticks",
+        "Shared pride deepens bond",
+        "Do not wait for big milestones"
+      ]
+    },
+    {
+      "id": "tip_10",
+      "title": "Check before teasing",
+      "description": "Humor lands best when both people feel safe.",
+      "body": "Playful teasing can be bonding—or bruising—depending on stress, cycle phase, and recent conflict. If she says it did not land, drop it without debate.",
+      "category": "Communication",
+      "icon": "smile",
+      "time_to_read": "1 min",
+      "try_this": "Ask: \"Was that funny or too much?\" and honor the answer.",
+      "takeaways": [
+        "Consent applies to jokes too",
+        "Stress changes humor tolerance",
+        "Repair if it misses"
+      ]
+    },
+    {
+      "id": "tip_11",
+      "title": "Name appreciation mid-conflict",
+      "description": "One sincere appreciation can de-escalate a stuck argument.",
+      "body": "Conflict narrows vision. Naming something you still respect about her widens it again. This is remembering you are teammates even when you disagree.",
+      "category": "Communication",
+      "icon": "heart_hand",
+      "time_to_read": "2 min",
+      "try_this": "Pause and say: \"I am frustrated, and I still care about us figuring this out.\"",
+      "takeaways": [
+        "Teammates, not opponents",
+        "Appreciation lowers heat",
+        "Pause is powerful"
+      ]
+    },
+    {
+      "id": "tip_12",
+      "title": "Share your inner weather",
+      "description": "A brief emotional forecast helps her not take your mood personally.",
+      "body": "Partners often fill silence with worst-case stories. A quick status update protects the relationship from unnecessary worry.",
+      "category": "Communication",
+      "icon": "chat",
+      "time_to_read": "1 min",
+      "try_this": "Offer: \"Mood weather today is cloudy—still glad you are here.\"",
+      "takeaways": [
+        "Narrate your silence",
+        "Prevent mind-reading",
+        "Keep it brief"
+      ]
+    },
+    {
+      "id": "tip_13",
+      "title": "Luteal phase softness",
+      "description": "The week before her period, small unprompted help lowers hidden stress.",
+      "body": "In the luteal phase, energy and patience can dip for many people. Anticipating needs—meals, chores, quieter evenings—communicates care without making her ask. Do not pathologize her; support her.",
+      "category": "Cycle Support",
+      "icon": "favorite",
+      "time_to_read": "2 min",
+      "try_this": "Take one recurring chore off her plate this luteal week without a big speech.",
+      "takeaways": [
+        "Anticipate, do not wait",
+        "Small help compounds",
+        "Support is not diagnosing"
+      ]
+    },
+    {
+      "id": "tip_14",
+      "title": "Period-week comfort kit",
+      "description": "Heat, hydration, snacks, and soft plans beat grand gestures.",
+      "body": "Menstrual days often ask for comfort more than excitement. A simple kit—heating pad ready, favorite snack stocked, flexible plans—shows you pay attention to her body’s seasons.",
+      "category": "Cycle Support",
+      "icon": "tea",
+      "time_to_read": "2 min",
+      "try_this": "Prep one comfort item she likes before her next period starts.",
+      "takeaways": [
+        "Comfort over performance",
+        "Prep beats scramble",
+        "Ask what helps her most"
+      ]
+    },
+    {
+      "id": "tip_15",
+      "title": "Respect low-energy days",
+      "description": "Some cycle days are not for big social plans—protect rest without guilt.",
+      "body": "Hormonal shifts can make socializing or high-output days feel heavier. Offering an easy out removes pressure and builds trust.",
+      "category": "Cycle Support",
+      "icon": "night",
+      "time_to_read": "1 min",
+      "try_this": "Build a standing soft backup plan for low-energy evenings.",
+      "takeaways": [
+        "Rest is relational care",
+        "Offer outs early",
+        "Flexibility is romance"
+      ]
+    },
+    {
+      "id": "tip_16",
+      "title": "Track patterns together kindly",
+      "description": "Notice patterns without using them as ammunition in arguments.",
+      "body": "Cycle awareness helps both of you plan with compassion. Use insights to support, never to dismiss with “you’re just hormonal.”",
+      "category": "Cycle Support",
+      "icon": "calendar",
+      "time_to_read": "2 min",
+      "try_this": "Ask how she prefers you talk about cycle timing—if at all.",
+      "takeaways": [
+        "Insight is not a weapon",
+        "Ask her preference",
+        "Compassion over certainty"
+      ]
+    },
+    {
+      "id": "tip_17",
+      "title": "Ovulation energy match",
+      "description": "If she feels more social or physical, match the vibe without pressure.",
+      "body": "Some people feel more outgoing around ovulation. Matching energy can be fun while still checking consent and desire, which can vary day to day.",
+      "category": "Cycle Support",
+      "icon": "sparkle",
+      "time_to_read": "1 min",
+      "try_this": "Suggest one light, fun outing and let her set the intensity.",
+      "takeaways": [
+        "Match, do not push",
+        "Desire still needs consent",
+        "Keep options flexible"
+      ]
+    },
+    {
+      "id": "tip_18",
+      "title": "Follicular fresh-start support",
+      "description": "Early-cycle weeks can feel like a reset—cheer on new goals gently.",
+      "body": "After menstruation, many people feel a mental or physical lift. Celebrate her initiatives without turning them into pressure.",
+      "category": "Cycle Support",
+      "icon": "walk",
+      "time_to_read": "1 min",
+      "try_this": "Ask what she is excited to start this cycle and how you can help.",
+      "takeaways": [
+        "Cheer, do not oversee",
+        "Offer company",
+        "Keep goals hers"
+      ]
+    },
+    {
+      "id": "tip_19",
+      "title": "Pain days mean fewer decisions",
+      "description": "Decision fatigue spikes with pain—narrow choices for her.",
+      "body": "When someone hurts, even small choices feel heavy. Offer two clear options instead of open-ended questions.",
+      "category": "Cycle Support",
+      "icon": "shield",
+      "time_to_read": "1 min",
+      "try_this": "Ask: \"Tea or water? Couch or bed?\" instead of \"What do you need?\"",
+      "takeaways": [
+        "Fewer choices help",
+        "Anticipate basics",
+        "Stay calm and close"
+      ]
+    },
+    {
+      "id": "tip_20",
+      "title": "Do not minimize PMS",
+      "description": "Dismissive jokes about PMS erode safety fast.",
+      "body": "Even well-meant humor can land as contempt. Treat premenstrual symptoms as real. Empathy strengthens intimacy; mockery shrinks it.",
+      "category": "Cycle Support",
+      "icon": "hearing",
+      "time_to_read": "1 min",
+      "try_this": "Replace jokes with: \"That sounds rough—how can I make tonight easier?\"",
+      "takeaways": [
+        "Symptoms are real",
+        "Skip the jokes",
+        "Ask how to help"
+      ]
+    },
+    {
+      "id": "tip_21",
+      "title": "Hydration and snack ally",
+      "description": "Quietly keep water and easy food available on tough cycle days.",
+      "body": "Blood sugar and hydration affect mood and pain perception. Quietly refilling a glass or leaving a snack nearby is intimate care without a speech.",
+      "category": "Cycle Support",
+      "icon": "tea",
+      "time_to_read": "1 min",
+      "try_this": "Put her favorite easy snack where she will see it today.",
+      "takeaways": [
+        "Quiet care counts",
+        "Basics matter",
+        "No lecture needed"
+      ]
+    },
+    {
+      "id": "tip_22",
+      "title": "Protect her sleep window",
+      "description": "Cycle-related sleep disruption is common—defend rest as a team.",
+      "body": "Offer to handle late chores, keep lights dimmer, or adjust evening plans. Sleep support is relationship support.",
+      "category": "Cycle Support",
+      "icon": "night",
+      "time_to_read": "2 min",
+      "try_this": "Take one evening task so she can wind down 30 minutes earlier.",
+      "takeaways": [
+        "Sleep is shared care",
+        "Dim the evening load",
+        "Consistency helps"
+      ]
+    },
+    {
+      "id": "tip_23",
+      "title": "Temperature and texture kindness",
+      "description": "Offer the soft sweater, cooler room, or warmer blanket without fuss.",
+      "body": "Comfort preferences shift across the cycle. Noticing temperature and texture needs is subtle attunement.",
+      "category": "Cycle Support",
+      "icon": "home",
+      "time_to_read": "1 min",
+      "try_this": "Ask once: \"Want it warmer, cooler, or softer tonight?\"",
+      "takeaways": [
+        "Body comfort is care",
+        "Ask simply",
+        "Act quickly"
+      ]
+    },
+    {
+      "id": "tip_24",
+      "title": "Plan around known hard days",
+      "description": "If she has predictable tough days, schedule buffer—not big deadlines.",
+      "body": "Collaborative planning reduces resentment. Build margin into those days for rest and simpler meals.",
+      "category": "Cycle Support",
+      "icon": "calendar",
+      "time_to_read": "2 min",
+      "try_this": "Ask which days usually feel hardest and block one softer plan.",
+      "takeaways": [
+        "Plan with compassion",
+        "Margin reduces conflict",
+        "Ask her pattern"
+      ]
+    },
+    {
+      "id": "tip_25",
+      "title": "Aftercare after intimacy",
+      "description": "Cycle-aware intimacy includes check-ins, comfort, and no scorekeeping.",
+      "body": "Desire and comfort can shift across the cycle. Aftercare—water, warmth, emotional check-in—matters. Never treat a “not tonight” as rejection of you as a person.",
+      "category": "Cycle Support",
+      "icon": "favorite",
+      "time_to_read": "2 min",
+      "try_this": "After closeness (or a no), ask how her body feels and what would help.",
+      "takeaways": [
+        "Aftercare is intimacy",
+        "No is not personal rejection",
+        "Check in gently"
+      ]
+    },
+    {
+      "id": "tip_26",
+      "title": "Plan a low-effort evening",
+      "description": "Cozy movie corner with blankets beats a forced fancy night out.",
+      "body": "Connection does not require a reservation. Low-effort evenings remove performance pressure and create room for real talk—or comfortable silence.",
+      "category": "Quality Time",
+      "icon": "night",
+      "time_to_read": "1 min",
+      "try_this": "Set up a no-agenda cozy corner tonight.",
+      "takeaways": [
+        "Simple can be intimate",
+        "Remove performance pressure",
+        "Shared vibe setting"
+      ]
+    },
+    {
+      "id": "tip_27",
+      "title": "Phone-free 20 minutes",
+      "description": "Short device-free pockets rebuild presence faster than long distracted hangs.",
+      "body": "Twenty intentional minutes—walk, tea, couch—signal priority. Put phones face-down in another room if needed.",
+      "category": "Quality Time",
+      "icon": "phone",
+      "time_to_read": "1 min",
+      "try_this": "Protect a 20-minute phone-free window today.",
+      "takeaways": [
+        "Short and focused works",
+        "Presence is a gift",
+        "Make it a habit"
+      ]
+    },
+    {
+      "id": "tip_28",
+      "title": "Walk and talk",
+      "description": "Side-by-side walks make hard conversations feel safer.",
+      "body": "Movement regulates stress and reduces the intensity of eye-contact pressure. A short walk can unlock topics that stall on the couch.",
+      "category": "Quality Time",
+      "icon": "walk",
+      "time_to_read": "1 min",
+      "try_this": "Invite a 15-minute evening walk with no agenda.",
+      "takeaways": [
+        "Side-by-side softens talk",
+        "Keep it short",
+        "No forced agenda"
+      ]
+    },
+    {
+      "id": "tip_29",
+      "title": "Shared playlist night",
+      "description": "Build a playlist together—music is an easy emotional bridge.",
+      "body": "Take turns adding songs and saying why they matter. It is playful, revealing, and low-stakes intimacy.",
+      "category": "Quality Time",
+      "icon": "music",
+      "time_to_read": "1 min",
+      "try_this": "Start a shared playlist and each add three songs tonight.",
+      "takeaways": [
+        "Play builds closeness",
+        "Stories behind songs",
+        "Low-stakes intimacy"
+      ]
+    },
+    {
+      "id": "tip_30",
+      "title": "Cook something simple together",
+      "description": "Chopping side by side can feel more connecting than a restaurant.",
+      "body": "Shared cooking creates teamwork and sensory pleasure. Keep the recipe easy so the point is togetherness, not culinary excellence.",
+      "category": "Quality Time",
+      "icon": "tea",
+      "time_to_read": "2 min",
+      "try_this": "Pick a 20-minute recipe and cook it as a team.",
+      "takeaways": [
+        "Teamwork is bonding",
+        "Keep recipes simple",
+        "Laugh off mistakes"
+      ]
+    },
+    {
+      "id": "tip_31",
+      "title": "Recreate an early-date detail",
+      "description": "Revisit a small early-relationship ritual—coffee spot, song, joke.",
+      "body": "Nostalgia done gently reminds you both why you chose each other. Keep it light and sincere, not pressure to feel like day one.",
+      "category": "Quality Time",
+      "icon": "sparkle",
+      "time_to_read": "1 min",
+      "try_this": "Replay one early favorite (place, snack, or song) this week.",
+      "takeaways": [
+        "Gentle nostalgia",
+        "Small rituals matter",
+        "No pressure to perform"
+      ]
+    },
+    {
+      "id": "tip_32",
+      "title": "One hobby guest appearance",
+      "description": "Join her interest briefly—curiosity is romantic.",
+      "body": "You do not have to become an expert. Showing up for 20 minutes of her world communicates respect. Ask questions; do not take over.",
+      "category": "Quality Time",
+      "icon": "smile",
+      "time_to_read": "2 min",
+      "try_this": "Ask to join one small slice of her hobby this week.",
+      "takeaways": [
+        "Curiosity beats competence",
+        "Do not take over",
+        "Short visits count"
+      ]
+    },
+    {
+      "id": "tip_33",
+      "title": "Morning micro-connection",
+      "description": "A 60-second morning ritual beats a distracted goodbye.",
+      "body": "Kiss, hug, or a genuine “hope your day is kind” before the rush. Micro-rituals stabilize attachment more than occasional grand gestures.",
+      "category": "Quality Time",
+      "icon": "favorite",
+      "time_to_read": "1 min",
+      "try_this": "Create a tiny morning goodbye ritual and keep it for a week.",
+      "takeaways": [
+        "Consistency beats grandeur",
+        "Mornings set tone",
+        "Keep it under a minute"
+      ]
+    },
+    {
+      "id": "tip_34",
+      "title": "Unscheduled togetherness",
+      "description": "Leave blank space so connection can happen without an agenda.",
+      "body": "Over-scheduling kills spontaneous closeness. Protect open time where you can simply be around each other.",
+      "category": "Quality Time",
+      "icon": "home",
+      "time_to_read": "1 min",
+      "try_this": "Block 45 minutes this week with nothing planned but presence.",
+      "takeaways": [
+        "Blank space is intimacy",
+        "Do not overfill weekends",
+        "Being beats doing"
+      ]
+    },
+    {
+      "id": "tip_35",
+      "title": "Celebrate ordinary Tuesdays",
+      "description": "Mark a random weekday like it matters—because it does.",
+      "body": "Relationships live in ordinary days. A small Tuesday treat teaches both of you that love is not reserved for anniversaries.",
+      "category": "Quality Time",
+      "icon": "gift",
+      "time_to_read": "1 min",
+      "try_this": "Do one tiny celebratory thing on an ordinary weekday.",
+      "takeaways": [
+        "Ordinary days count",
+        "Tiny celebrations",
+        "Do not wait for holidays"
+      ]
+    },
+    {
+      "id": "tip_36",
+      "title": "Handle a chore unprompted",
+      "description": "Invisible labor piles up—take one task before she asks.",
+      "body": "Anticipatory help is one of the clearest love languages in daily life. Choose a recurring friction point and own it fully, not halfway.",
+      "category": "Care & Comfort",
+      "icon": "home",
+      "time_to_read": "1 min",
+      "try_this": "Complete one full chore today without announcing it first.",
+      "takeaways": [
+        "Anticipate load",
+        "Finish the job",
+        "Actions beat speeches"
+      ]
+    },
+    {
+      "id": "tip_37",
+      "title": "Bring her favorite comfort",
+      "description": "Tea, snack, or sweater—deliver comfort without a big production.",
+      "body": "Remembered preferences are intimacy. The point is not the object; it is that you noticed and acted.",
+      "category": "Care & Comfort",
+      "icon": "tea",
+      "time_to_read": "1 min",
+      "try_this": "Deliver one favorite comfort item today.",
+      "takeaways": [
+        "Preferences are love maps",
+        "Quiet delivery",
+        "Consistency builds trust"
+      ]
+    },
+    {
+      "id": "tip_38",
+      "title": "Be the calm in the room",
+      "description": "Your regulated nervous system can help hers settle.",
+      "body": "You do not have to fix everything. Breathing slower, speaking softer, and staying nearby can co-regulate stress.",
+      "category": "Care & Comfort",
+      "icon": "shield",
+      "time_to_read": "2 min",
+      "try_this": "In the next tense moment, slow your voice before you speak.",
+      "takeaways": [
+        "Calm is contagious",
+        "Presence over fixing",
+        "Soft voice helps"
+      ]
+    },
+    {
+      "id": "tip_39",
+      "title": "Offer practical buffers",
+      "description": "Drive, dishes, packing, errands—reduce her cognitive load.",
+      "body": "Mental load is real. Taking ownership of logistics is emotional support in action. Confirm what would help most rather than guessing forever.",
+      "category": "Care & Comfort",
+      "icon": "heart_hand",
+      "time_to_read": "1 min",
+      "try_this": "Ask: \"What is one logistics thing I can fully own this week?\"",
+      "takeaways": [
+        "Mental load matters",
+        "Own it end-to-end",
+        "Ask, then execute"
+      ]
+    },
+    {
+      "id": "tip_40",
+      "title": "Create a soft landing at home",
+      "description": "Lights, music, tidy surface—make arriving home feel kinder.",
+      "body": "Home atmosphere shapes mood. A five-minute reset before she walks in can signal: this space is for exhale.",
+      "category": "Care & Comfort",
+      "icon": "home",
+      "time_to_read": "1 min",
+      "try_this": "Do a five-minute soft-landing reset before she gets home.",
+      "takeaways": [
+        "Atmosphere is care",
+        "Five minutes is enough",
+        "Exhale space"
+      ]
+    },
+    {
+      "id": "tip_41",
+      "title": "Respect alone-time requests",
+      "description": "Solitude can be recovery, not rejection.",
+      "body": "When she asks for space, honor it warmly. Checking endlessly can feel like pressure. Agree on a gentle reconnect time if that helps both of you.",
+      "category": "Care & Comfort",
+      "icon": "night",
+      "time_to_read": "1 min",
+      "try_this": "Respond with: \"Take the time you need—I am here when you are ready.\"",
+      "takeaways": [
+        "Space can be care",
+        "Do not hover",
+        "Reconnect agreements help"
+      ]
+    },
+    {
+      "id": "tip_42",
+      "title": "Keep promises tiny and true",
+      "description": "Reliability in small things builds safety for big things.",
+      "body": "Missed micro-promises erode trust quietly. Prefer smaller commitments you can keep over impressive ones you cannot.",
+      "category": "Care & Comfort",
+      "icon": "shield",
+      "time_to_read": "1 min",
+      "try_this": "Make one tiny promise today and complete it same-day.",
+      "takeaways": [
+        "Reliability is romance",
+        "Small promises matter",
+        "Under-promise, deliver"
+      ]
+    },
+    {
+      "id": "tip_43",
+      "title": "Illness or pain day protocol",
+      "description": "Have a simple care script ready: water, meds reminder, quiet company.",
+      "body": "When she is unwell, clarity helps. Ask once what she wants, then execute. Hovering and repeated questions can tire someone who is already depleted.",
+      "category": "Care & Comfort",
+      "icon": "favorite",
+      "time_to_read": "2 min",
+      "try_this": "Save a short care checklist for sick or pain days.",
+      "takeaways": [
+        "Ask once, then act",
+        "Quiet company helps",
+        "Prep a checklist"
+      ]
+    },
+    {
+      "id": "tip_44",
+      "title": "Compliment non-appearance traits",
+      "description": "Praise thoughtfulness, humor, courage—not only looks.",
+      "body": "Appearance compliments can feel good, but character compliments often land deeper and age better. Be specific about what you noticed.",
+      "category": "Appreciation",
+      "icon": "sparkle",
+      "time_to_read": "1 min",
+      "try_this": "Give one non-appearance compliment today with a concrete detail.",
+      "takeaways": [
+        "Character praise sticks",
+        "Be specific",
+        "Balance your compliments"
+      ]
+    },
+    {
+      "id": "tip_45",
+      "title": "Thank her for invisible work",
+      "description": "Name the labor that usually goes unnamed.",
+      "body": "Invisible work keeps life running. Thanking it makes the load feel shared and seen. Avoid backhanded thanks that sound like scorekeeping.",
+      "category": "Appreciation",
+      "icon": "heart_hand",
+      "time_to_read": "1 min",
+      "try_this": "Say: \"I noticed you handled __ — thank you. That made today easier.\"",
+      "takeaways": [
+        "Name invisible labor",
+        "Sincere, not transactional",
+        "Noticing is loving"
+      ]
+    },
+    {
+      "id": "tip_46",
+      "title": "Leave a surprise note",
+      "description": "A sticky note or short text can brighten an ordinary hour.",
+      "body": "Written appreciation lasts longer than spoken words that vanish into a busy day. Keep it short, warm, and specific.",
+      "category": "Appreciation",
+      "icon": "gift",
+      "time_to_read": "1 min",
+      "try_this": "Leave one short note where she will find it today.",
+      "takeaways": [
+        "Written words linger",
+        "Short is fine",
+        "Specificity wins"
+      ]
+    },
+    {
+      "id": "tip_47",
+      "title": "Public pride, private softness",
+      "description": "Speak well of her to others—and keep tenderness private too.",
+      "body": "Public respect builds safety. Private softness builds intimacy. Both matter. Never use public praise as cover for private neglect.",
+      "category": "Appreciation",
+      "icon": "smile",
+      "time_to_read": "2 min",
+      "try_this": "Share one genuine compliment about her to a friend or family member.",
+      "takeaways": [
+        "Public respect matters",
+        "Private care still required",
+        "Authenticity over performance"
+      ]
+    },
+    {
+      "id": "tip_48",
+      "title": "Notice growth, not just outcomes",
+      "description": "Celebrate effort and progress, not only finished wins.",
+      "body": "Growth can be quiet. Naming progress reinforces identity and partnership.",
+      "category": "Appreciation",
+      "icon": "sparkle",
+      "time_to_read": "1 min",
+      "try_this": "Name one growth pattern you have noticed in her lately.",
+      "takeaways": [
+        "Progress deserves praise",
+        "Reinforce identity",
+        "Be observational"
+      ]
+    },
+    {
+      "id": "tip_49",
+      "title": "Say the unsaid good thing",
+      "description": "If you have been assuming she knows—say it anyway.",
+      "body": "Love unspoken often feels like love uncertain. Do not wait for a perfect moment. Ordinary moments are perfect enough.",
+      "category": "Appreciation",
+      "icon": "favorite",
+      "time_to_read": "1 min",
+      "try_this": "Tell her one thing you have been meaning to say out loud.",
+      "takeaways": [
+        "Do not assume she knows",
+        "Ordinary moments work",
+        "Clarity is kindness"
+      ]
+    },
+    {
+      "id": "tip_50",
+      "title": "End the day with gratitude",
+      "description": "A nightly one-liner of thanks closes the loop on care.",
+      "body": "Ending the day with gratitude reduces scorekeeping and increases warmth. Keep it real—one specific sentence beats a speech.",
+      "category": "Appreciation",
+      "icon": "night",
+      "time_to_read": "1 min",
+      "try_this": "Tonight say: \"One thing I am grateful for about us today is…\"",
+      "takeaways": [
+        "Nightly gratitude ritual",
+        "One sentence is enough",
+        "Specific beats generic"
+      ]
+    }
+  ]
+}

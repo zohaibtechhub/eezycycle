@@ -1,0 +1,54 @@
+---
+description: Production Node.js folder layout for eezycycle-backend
+globs: eezycycle-backend/**/*
+alwaysApply: false
+---
+
+# Backend Folder Structure
+
+Keep API code in this layout. Do not dump logic into `server.js` or invent parallel roots.
+
+```
+eezycycle-backend/
+├── server.js                 # listen only — wire app, port
+├── app.js                    # express app, middleware, mount routes
+├── package.json
+├── .env.example
+├── config/                   # env, db, cors — no business logic
+├── routes/                   # route tables only (thin)
+├── controllers/              # req/res → call services
+├── services/                 # business logic
+├── repositories/             # MySQL queries / data access
+├── middleware/               # auth, validate, error handler
+├── utils/                    # shared helpers (error, logger, …)
+├── validators/               # request schemas
+├── sql/
+│   ├── schema/               # CREATE TABLE scripts
+│   ├── migrations/           # ordered ALTER scripts
+│   └── seeds/                # optional seed data
+└── tests/
+```
+
+## Placement rules
+
+| Need | Put it in |
+|------|-----------|
+| New HTTP path | `routes/` + `controllers/` |
+| Business rule / cycle math | `services/` |
+| SQL / queries | `repositories/` + `sql/` |
+| Shared helper used 2+ times | `utils/` |
+| Express middleware | `middleware/` |
+| Env / pool / constants | `config/` |
+
+## Naming
+
+- Files: `snake_case.js` (`cycle_service.js`, `error.js`)
+- Classes/exports: `PascalCase` for types (`AppError`), `camelCase` for functions
+- SQL: `001_create_users.sql`, `002_add_devices.sql` (ordered prefixes)
+
+## Anti-patterns
+
+- Fat `server.js` with routes + SQL + business logic
+- Controllers talking to MySQL directly (skip `repositories/`)
+- Duplicating `config` or env reads across files
+- One-off `helpers/` / `lib/` / `common/` folders beside `utils/`

@@ -1,0 +1,52 @@
+---
+description: AppImages asset paths and CustomSvgIcon for Flutter images
+globs: lib/**/*.dart
+alwaysApply: false
+---
+
+# Images & Assets
+
+**Path catalog:** `lib/core/constants/app_images.dart` (`AppImages`)
+**SVG widget:** `lib/widgets/image/custom_svg.dart` (`CustomSvgIcon`)
+
+There is no `ImageClass` wrapper. Use `AppImages` + Flutter/`CustomSvgIcon`/`Lottie` directly.
+
+## Register assets on AppImages
+
+```dart
+// ❌ BAD
+Image.asset('assets/images/logo.png')
+
+// ✅ GOOD — add static on AppImages, then consume
+static final String logo = pngImage('logo');
+Image.asset(AppImages.logo, width: 94, height: 94, fit: BoxFit.contain);
+```
+
+Helpers on `AppImages`: `pngImage`, `svgImage`, `jpgImage`, `webpImage`, `jsonAnimation`.
+Network base: `AppImages.baseUrlForImage` when building remote URLs.
+
+Assets live under `assets/images/` (registered in `pubspec.yaml`). Keep Lottie JSON paths consistent with existing `jsonAnimation` usage.
+
+## Display patterns
+
+| Type | Widget |
+|------|--------|
+| PNG/JPG/WebP | `Image.asset(AppImages.xxx, …)` |
+| SVG | `CustomSvgIcon(assetName: path, width:, height:, color:)` |
+| Lottie | `Lottie.asset(AppImages.confeti, …)` |
+
+```dart
+CustomSvgIcon(
+  assetName: AppImages.someSvg, // or path from AppImages helper
+  width: 18,
+  height: 18,
+  color: AppColors.textSecondary,
+);
+```
+
+## DRY rules
+
+- Never hardcode `assets/images/...` strings in views
+- New asset → file in `assets/images/` + named static on `AppImages`
+- Do not invent a new asset class (`AppAssets`, `ImageClass`) — extend `AppImages`
+- Prefer `CustomSvgIcon` for tinted SVG icons (e.g. text-field prefix/suffix)

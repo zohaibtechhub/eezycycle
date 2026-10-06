@@ -1,0 +1,566 @@
+{
+  "version": 2,
+  "disclaimer": "Educational suggestions only \u2014 not medical advice. Follow your clinician\u2019s guidance.",
+  "tips": [
+    {
+      "id": "w01_food",
+      "week": 1,
+      "category": "food",
+      "title": "Gentle nutrition start",
+      "body": "Focus on regular meals and a prenatal vitamin if your clinician recommended one."
+    },
+    {
+      "id": "w02_food",
+      "week": 2,
+      "category": "food",
+      "title": "Leafy greens help",
+      "body": "Spinach or kale add folate \u2014 useful as early cells divide. Small, doable steps beat perfect plans \u2014 pick what fits today."
+    },
+    {
+      "id": "w03_food",
+      "week": 3,
+      "category": "food",
+      "title": "Stay hydrated",
+      "body": "Sip water through the day; dehydration can worsen early fatigue. Small, doable steps beat perfect plans \u2014 pick what fits today."
+    },
+    {
+      "id": "w04_food",
+      "week": 4,
+      "category": "food",
+      "title": "Protein at breakfast",
+      "body": "Eggs, yogurt, or nut butter help steady energy as hormones shift. Small, doable steps beat perfect plans \u2014 pick what fits today."
+    },
+    {
+      "id": "w05_food",
+      "week": 5,
+      "category": "food",
+      "title": "Ginger for queasiness",
+      "body": "Ginger tea or ginger candies may ease mild nausea \u2014 check with your clinician. Small, doable steps beat perfect plans \u2014 pick what fits today."
+    },
+    {
+      "id": "w06_food",
+      "week": 6,
+      "category": "food",
+      "title": "Small frequent meals",
+      "body": "Eating every few hours can calm an empty-stomach nausea wave. Small, doable steps beat perfect plans \u2014 pick what fits today."
+    },
+    {
+      "id": "w07_food",
+      "week": 7,
+      "category": "food",
+      "title": "Iron-friendly plate",
+      "body": "Pair beans or lean meat with vitamin C (citrus, peppers) for absorption. Small, doable steps beat perfect plans \u2014 pick what fits today."
+    },
+    {
+      "id": "w08_food",
+      "week": 8,
+      "category": "food",
+      "title": "Calcium snack",
+      "body": "Yogurt or fortified milk supports early skeletal building blocks. Small, doable steps beat perfect plans \u2014 pick what fits today."
+    },
+    {
+      "id": "w09_food",
+      "week": 9,
+      "category": "food",
+      "title": "Healthy fats",
+      "body": "Avocado or a handful of nuts support baby\u2019s brain development. Small, doable steps beat perfect plans \u2014 pick what fits today."
+    },
+    {
+      "id": "w10_food",
+      "week": 10,
+      "category": "food",
+      "title": "Fiber for comfort",
+      "body": "Oats, fruit, and veggies help with early bloating and constipation. Small, doable steps beat perfect plans \u2014 pick what fits today."
+    },
+    {
+      "id": "w11_food",
+      "week": 11,
+      "category": "food",
+      "title": "Colorful produce",
+      "body": "Aim for two different colored fruits or veggies today. Small, doable steps beat perfect plans \u2014 pick what fits today."
+    },
+    {
+      "id": "w12_food",
+      "week": 12,
+      "category": "food",
+      "title": "Steady carbs",
+      "body": "Whole grains keep energy even as your metabolism ticks up. Small, doable steps beat perfect plans \u2014 pick what fits today."
+    },
+    {
+      "id": "w13_food",
+      "week": 13,
+      "category": "food",
+      "title": "Second-trimester boost",
+      "body": "Appetite often returns \u2014 keep nutrient-dense snacks handy. Small, doable steps beat perfect plans \u2014 pick what fits today."
+    },
+    {
+      "id": "w14_food",
+      "week": 14,
+      "category": "food",
+      "title": "Omega-3 check",
+      "body": "Fatty fish (low-mercury) or chia seeds support brain growth. Small, doable steps beat perfect plans \u2014 pick what fits today."
+    },
+    {
+      "id": "w15_food",
+      "week": 15,
+      "category": "food",
+      "title": "Hydration reminder",
+      "body": "Aim for pale-yellow urine as a simple hydration cue. Small, doable steps beat perfect plans \u2014 pick what fits today."
+    },
+    {
+      "id": "w16_food",
+      "week": 16,
+      "category": "food",
+      "title": "Bone-building lunch",
+      "body": "Cheese, tofu, or fortified plant milk for calcium. Small, doable steps beat perfect plans \u2014 pick what fits today."
+    },
+    {
+      "id": "w17_food",
+      "week": 17,
+      "category": "food",
+      "title": "Crunchy veggies",
+      "body": "Carrots or cucumber with hummus make an easy afternoon snack. Small, doable steps beat perfect plans \u2014 pick what fits today."
+    },
+    {
+      "id": "w18_food",
+      "week": 18,
+      "category": "food",
+      "title": "Iron + C combo",
+      "body": "Lentils with lemon or tomatoes help keep iron stores up. Small, doable steps beat perfect plans \u2014 pick what fits today."
+    },
+    {
+      "id": "w19_food",
+      "week": 19,
+      "category": "food",
+      "title": "Warm comfort bowl",
+      "body": "Soup with beans and greens is gentle and filling. Small, doable steps beat perfect plans \u2014 pick what fits today."
+    },
+    {
+      "id": "w20_food",
+      "week": 20,
+      "category": "food",
+      "title": "Halfway fuel",
+      "body": "Add an extra snack if evening hunger spikes. Small, doable steps beat perfect plans \u2014 pick what fits today."
+    },
+    {
+      "id": "w21_food",
+      "week": 21,
+      "category": "food",
+      "title": "Magnesium foods",
+      "body": "Bananas, almonds, or dark leafy greens may ease night cramps. Small, doable steps beat perfect plans \u2014 pick what fits today."
+    },
+    {
+      "id": "w22_food",
+      "week": 22,
+      "category": "food",
+      "title": "Protein for growth",
+      "body": "Include a palm-sized protein portion at lunch and dinner. Small, doable steps beat perfect plans \u2014 pick what fits today."
+    },
+    {
+      "id": "w23_food",
+      "week": 23,
+      "category": "food",
+      "title": "Berry boost",
+      "body": "Berries add antioxidants and fiber with little prep. Small, doable steps beat perfect plans \u2014 pick what fits today."
+    },
+    {
+      "id": "w24_food",
+      "week": 24,
+      "category": "food",
+      "title": "Salt awareness",
+      "body": "Watch ultra-salty packaged foods if swelling bothers you. Small, doable steps beat perfect plans \u2014 pick what fits today."
+    },
+    {
+      "id": "w25_food",
+      "week": 25,
+      "category": "food",
+      "title": "Complex carbs",
+      "body": "Sweet potato or brown rice for longer-lasting energy. Small, doable steps beat perfect plans \u2014 pick what fits today."
+    },
+    {
+      "id": "w26_food",
+      "week": 26,
+      "category": "food",
+      "title": "Dairy or fortified alt",
+      "body": "Keep calcium consistent as baby\u2019s bones harden. Small, doable steps beat perfect plans \u2014 pick what fits today."
+    },
+    {
+      "id": "w27_food",
+      "week": 27,
+      "category": "food",
+      "title": "Third-trimester plate",
+      "body": "Smaller, more frequent meals ease a crowding stomach. Small, doable steps beat perfect plans \u2014 pick what fits today."
+    },
+    {
+      "id": "w28_food",
+      "week": 28,
+      "category": "food",
+      "title": "Evening snack",
+      "body": "A light protein + carb snack may help overnight blood sugar. Small, doable steps beat perfect plans \u2014 pick what fits today."
+    },
+    {
+      "id": "w29_food",
+      "week": 29,
+      "category": "food",
+      "title": "Hydrate for swelling",
+      "body": "Oddly, more water can help fluid balance \u2014 keep sipping. Small, doable steps beat perfect plans \u2014 pick what fits today."
+    },
+    {
+      "id": "w30_food",
+      "week": 30,
+      "category": "food",
+      "title": "Easy-to-digest dinner",
+      "body": "Softer cooked veggies if heartburn is flaring. Small, doable steps beat perfect plans \u2014 pick what fits today."
+    },
+    {
+      "id": "w31_food",
+      "week": 31,
+      "category": "food",
+      "title": "Fiber + fluid",
+      "body": "Pair whole grains with water to keep digestion moving. Small, doable steps beat perfect plans \u2014 pick what fits today."
+    },
+    {
+      "id": "w32_food",
+      "week": 32,
+      "category": "food",
+      "title": "Potassium foods",
+      "body": "Banana or avocado may help with leg cramps. Small, doable steps beat perfect plans \u2014 pick what fits today."
+    },
+    {
+      "id": "w33_food",
+      "week": 33,
+      "category": "food",
+      "title": "Iron still matters",
+      "body": "Keep iron-rich foods in rotation as blood volume peaks. Small, doable steps beat perfect plans \u2014 pick what fits today."
+    },
+    {
+      "id": "w34_food",
+      "week": 34,
+      "category": "food",
+      "title": "Light spicy if OK",
+      "body": "If heartburn allows, mild spice is fine \u2014 stop if it burns. Small, doable steps beat perfect plans \u2014 pick what fits today."
+    },
+    {
+      "id": "w35_food",
+      "week": 35,
+      "category": "food",
+      "title": "Small plate strategy",
+      "body": "Stop when comfortably full; your stomach has less room. Small, doable steps beat perfect plans \u2014 pick what fits today."
+    },
+    {
+      "id": "w36_food",
+      "week": 36,
+      "category": "food",
+      "title": "Dates if advised",
+      "body": "Some clinicians discuss dates near term \u2014 ask yours first. Small, doable steps beat perfect plans \u2014 pick what fits today."
+    },
+    {
+      "id": "w37_food",
+      "week": 37,
+      "category": "food",
+      "title": "Easy snacks ready",
+      "body": "Keep yogurt or crackers nearby for busy nesting days. Small, doable steps beat perfect plans \u2014 pick what fits today."
+    },
+    {
+      "id": "w38_food",
+      "week": 38,
+      "category": "food",
+      "title": "Stay nourished",
+      "body": "Don\u2019t skip meals even if appetite dips near the end. Small, doable steps beat perfect plans \u2014 pick what fits today."
+    },
+    {
+      "id": "w39_food",
+      "week": 39,
+      "category": "food",
+      "title": "Hydrate lightly",
+      "body": "Sip often; large gulps can worsen late reflux. Small, doable steps beat perfect plans \u2014 pick what fits today."
+    },
+    {
+      "id": "w40_food",
+      "week": 40,
+      "category": "food",
+      "title": "Fuel for labor days",
+      "body": "Easy carbs + protein for energy if contractions begin. Small, doable steps beat perfect plans \u2014 pick what fits today."
+    },
+    {
+      "id": "w01_move",
+      "week": 1,
+      "category": "exercise",
+      "title": "Easy walk",
+      "body": "A short outdoor stroll supports mood without overdoing it. Small, doable steps beat perfect plans \u2014 pick what fits today."
+    },
+    {
+      "id": "w02_move",
+      "week": 2,
+      "category": "wellness",
+      "title": "Breathing pause",
+      "body": "Two minutes of slow breathing can settle early stress. Small, doable steps beat perfect plans \u2014 pick what fits today."
+    },
+    {
+      "id": "w03_move",
+      "week": 3,
+      "category": "wellness",
+      "title": "Posture check",
+      "body": "Uncross your legs and roll shoulders back once this hour. Small, doable steps beat perfect plans \u2014 pick what fits today."
+    },
+    {
+      "id": "w04_move",
+      "week": 4,
+      "category": "exercise",
+      "title": "Light stretch",
+      "body": "Gentle neck and hip openers if your clinician okays exercise. Small, doable steps beat perfect plans \u2014 pick what fits today."
+    },
+    {
+      "id": "w05_move",
+      "week": 5,
+      "category": "rest",
+      "title": "Rest when tired",
+      "body": "Nausea days are for rest \u2014 skip intense workouts. Small, doable steps beat perfect plans \u2014 pick what fits today."
+    },
+    {
+      "id": "w06_move",
+      "week": 6,
+      "category": "exercise",
+      "title": "Pelvic tilts",
+      "body": "A few gentle pelvic tilts can ease low backache. Small, doable steps beat perfect plans \u2014 pick what fits today."
+    },
+    {
+      "id": "w07_move",
+      "week": 7,
+      "category": "exercise",
+      "title": "Walk after meals",
+      "body": "Five minutes of walking may help digestion and energy. Small, doable steps beat perfect plans \u2014 pick what fits today."
+    },
+    {
+      "id": "w08_move",
+      "week": 8,
+      "category": "exercise",
+      "title": "Prenatal yoga vibe",
+      "body": "Slow cat-cow stretches if movement feels good. Small, doable steps beat perfect plans \u2014 pick what fits today."
+    },
+    {
+      "id": "w09_move",
+      "week": 9,
+      "category": "exercise",
+      "title": "Desk breaks",
+      "body": "Stand and stretch every hour if you sit a lot. Small, doable steps beat perfect plans \u2014 pick what fits today."
+    },
+    {
+      "id": "w10_move",
+      "week": 10,
+      "category": "exercise",
+      "title": "Swim or walk",
+      "body": "Low-impact movement is usually pregnancy-friendly \u2014 confirm with your clinician."
+    },
+    {
+      "id": "w11_move",
+      "week": 11,
+      "category": "exercise",
+      "title": "Side-sleep practice",
+      "body": "Start favoring left-side rest with a pillow between knees. Small, doable steps beat perfect plans \u2014 pick what fits today."
+    },
+    {
+      "id": "w12_move",
+      "week": 12,
+      "category": "exercise",
+      "title": "Celebrate mobility",
+      "body": "Keep activities you enjoy at a comfortable pace. Small, doable steps beat perfect plans \u2014 pick what fits today."
+    },
+    {
+      "id": "w13_move",
+      "week": 13,
+      "category": "exercise",
+      "title": "Strength gently",
+      "body": "Bodyweight squats to a chair if approved by your clinician. Small, doable steps beat perfect plans \u2014 pick what fits today."
+    },
+    {
+      "id": "w14_move",
+      "week": 14,
+      "category": "exercise",
+      "title": "Hip openers",
+      "body": "Butterfly stretch for a minute while breathing slowly. Small, doable steps beat perfect plans \u2014 pick what fits today."
+    },
+    {
+      "id": "w15_move",
+      "week": 15,
+      "category": "exercise",
+      "title": "Fresh air goal",
+      "body": "Ten minutes outside for mood and vitamin D (with sun safety). Small, doable steps beat perfect plans \u2014 pick what fits today."
+    },
+    {
+      "id": "w16_move",
+      "week": 16,
+      "category": "exercise",
+      "title": "Pelvic floor intro",
+      "body": "Ask your clinician about safe Kegel practice. Small, doable steps beat perfect plans \u2014 pick what fits today."
+    },
+    {
+      "id": "w17_move",
+      "week": 17,
+      "category": "exercise",
+      "title": "Stretch calves",
+      "body": "Evening calf stretches may reduce night cramps. Small, doable steps beat perfect plans \u2014 pick what fits today."
+    },
+    {
+      "id": "w18_move",
+      "week": 18,
+      "category": "exercise",
+      "title": "Steady cardio",
+      "body": "Brisk walking that still lets you talk comfortably. Small, doable steps beat perfect plans \u2014 pick what fits today."
+    },
+    {
+      "id": "w19_move",
+      "week": 19,
+      "category": "wellness",
+      "title": "Supportive shoes",
+      "body": "Swap heels for cushioned sneakers on busy days. Small, doable steps beat perfect plans \u2014 pick what fits today."
+    },
+    {
+      "id": "w20_move",
+      "week": 20,
+      "category": "exercise",
+      "title": "Halfway movement",
+      "body": "Keep a movement habit you can sustain into later weeks. Small, doable steps beat perfect plans \u2014 pick what fits today."
+    },
+    {
+      "id": "w21_move",
+      "week": 21,
+      "category": "rest",
+      "title": "Side-lying rest",
+      "body": "A short lie-down on your side can reset afternoon fatigue. Small, doable steps beat perfect plans \u2014 pick what fits today."
+    },
+    {
+      "id": "w22_move",
+      "week": 22,
+      "category": "exercise",
+      "title": "Upper-back stretch",
+      "body": "Doorway chest opener to counter pregnancy posture. Small, doable steps beat perfect plans \u2014 pick what fits today."
+    },
+    {
+      "id": "w23_move",
+      "week": 23,
+      "category": "exercise",
+      "title": "Ankle circles",
+      "body": "Reduce ankle puffiness with circles while seated. Small, doable steps beat perfect plans \u2014 pick what fits today."
+    },
+    {
+      "id": "w24_move",
+      "week": 24,
+      "category": "exercise",
+      "title": "Prenatal class",
+      "body": "Consider a clinician-approved prenatal fitness class. Small, doable steps beat perfect plans \u2014 pick what fits today."
+    },
+    {
+      "id": "w25_move",
+      "week": 25,
+      "category": "exercise",
+      "title": "Short walks often",
+      "body": "Two 10-minute walks beat one long push if energy dips. Small, doable steps beat perfect plans \u2014 pick what fits today."
+    },
+    {
+      "id": "w26_move",
+      "week": 26,
+      "category": "exercise",
+      "title": "Hip flexor stretch",
+      "body": "Gentle lunges holding a chair for balance. Small, doable steps beat perfect plans \u2014 pick what fits today."
+    },
+    {
+      "id": "w27_move",
+      "week": 27,
+      "category": "exercise",
+      "title": "Labor-prep breath",
+      "body": "Practice slow exhalations \u2014 useful later in labor. Small, doable steps beat perfect plans \u2014 pick what fits today."
+    },
+    {
+      "id": "w28_move",
+      "week": 28,
+      "category": "exercise",
+      "title": "Elevate feet",
+      "body": "Fifteen minutes feet-up after a long day. Small, doable steps beat perfect plans \u2014 pick what fits today."
+    },
+    {
+      "id": "w29_move",
+      "week": 29,
+      "category": "exercise",
+      "title": "Wall push-ups",
+      "body": "Light upper-body work if your clinician agrees. Small, doable steps beat perfect plans \u2014 pick what fits today."
+    },
+    {
+      "id": "w30_move",
+      "week": 30,
+      "category": "exercise",
+      "title": "Birth-ball sit",
+      "body": "Gentle hip circles on a birth ball may ease pressure. Small, doable steps beat perfect plans \u2014 pick what fits today."
+    },
+    {
+      "id": "w31_move",
+      "week": 31,
+      "category": "exercise",
+      "title": "Pace yourself",
+      "body": "Break chores into smaller chunks with rest between. Small, doable steps beat perfect plans \u2014 pick what fits today."
+    },
+    {
+      "id": "w32_move",
+      "week": 32,
+      "category": "exercise",
+      "title": "Side-sleep setup",
+      "body": "Pregnancy pillow or knee pillow for deeper rest. Small, doable steps beat perfect plans \u2014 pick what fits today."
+    },
+    {
+      "id": "w33_move",
+      "week": 33,
+      "category": "exercise",
+      "title": "Daily mobility",
+      "body": "Keep walking unless your clinician advises otherwise. Small, doable steps beat perfect plans \u2014 pick what fits today."
+    },
+    {
+      "id": "w34_move",
+      "week": 34,
+      "category": "exercise",
+      "title": "Perineal awareness",
+      "body": "Ask your clinician about perineal massage timing. Small, doable steps beat perfect plans \u2014 pick what fits today."
+    },
+    {
+      "id": "w35_move",
+      "week": 35,
+      "category": "wellness",
+      "title": "Nest smarter",
+      "body": "Alternate standing tasks with seated ones. Small, doable steps beat perfect plans \u2014 pick what fits today."
+    },
+    {
+      "id": "w36_move",
+      "week": 36,
+      "category": "exercise",
+      "title": "Practice positions",
+      "body": "Try hands-and-knees or side-lying comfort positions. Small, doable steps beat perfect plans \u2014 pick what fits today."
+    },
+    {
+      "id": "w37_move",
+      "week": 37,
+      "category": "rest",
+      "title": "Conserve energy",
+      "body": "Save big projects for when you feel strongest. Small, doable steps beat perfect plans \u2014 pick what fits today."
+    },
+    {
+      "id": "w38_move",
+      "week": 38,
+      "category": "exercise",
+      "title": "Gentle movement only",
+      "body": "Skip new intense routines this close to term. Small, doable steps beat perfect plans \u2014 pick what fits today."
+    },
+    {
+      "id": "w39_move",
+      "week": 39,
+      "category": "rest",
+      "title": "Rest is productive",
+      "body": "Naps and early nights count as preparation. Small, doable steps beat perfect plans \u2014 pick what fits today."
+    },
+    {
+      "id": "w40_move",
+      "week": 40,
+      "category": "wellness",
+      "title": "Listen to your body",
+      "body": "Rest, hydrate, and contact your clinician with concerns. Small, doable steps beat perfect plans \u2014 pick what fits today."
+    }
+  ]
+}

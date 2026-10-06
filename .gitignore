@@ -1,0 +1,38 @@
+# OS
+.DS_Store
+Thumbs.db
+
+# Env & secrets (never commit)
+.env
+.env.*
+!.env.example
+!**/.env.example
+!**/.env.production.example
+**/config/client_secret_*.json
+**/config/*service-account*.json
+**/config/notification-service-account.json
+
+# Dependencies & build
+**/node_modules/
+**/.next/
+**/out/
+**/dist/
+**/.vercel/
+**/.dart_tool/
+**/build/
+**/.flutter-plugins-dependencies
+**/coverage/
+*.tsbuildinfo
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+*.log
+
+# IDE
+.idea/
+*.iml
+
+# Local archives
+**/Archive*.zip

@@ -1,0 +1,53 @@
+---
+description: AppColors, AppTheme, and theme extension usage for Flutter UI
+globs: lib/**/*.dart
+alwaysApply: false
+---
+
+# Color Scheme & Theme
+
+**Source of truth:** `lib/core/constants/app_colors.dart` (`AppColors`)
+**Theme wiring:** `lib/core/utils/app_theme.dart` (`AppTheme.light` / `AppTheme.dark`)
+**Context helpers:** `lib/core/extensions/theme_extension.dart`
+
+App currently forces `ThemeMode.light` in `main.dart`. Dark tokens exist — prefer theme/extension colors so dark can be enabled later.
+
+## Brand & neutrals (light)
+
+| Token | Hex | Use |
+|-------|-----|-----|
+| `primary` | `#E85078` | Brand, CTAs |
+| `primaryLight` | `#FDF0F3` | Soft tinted backgrounds |
+| `secondary` | `#F07293` | Secondary highlights |
+| `accent` | `#E03856` | High-emphasis coral |
+| `background` | `#FAF7F8` | Scaffold |
+| `surface` | `#FFFFFF` | Cards / elevated |
+| `textPrimary` | `#1E1719` | Body / titles |
+| `textSecondary` | `#6B5E63` | Subtext |
+| `border` | `#EEDFE3` | Dividers / borders |
+
+## Cycle / health states
+
+Use semantic tokens — never pick a random purple/green for cycle UI:
+
+`period` · `ovulation` · `fertility` · `pregnancy` · `perimenopause`
+
+Feedback: `success` · `warning` · `error` · `info`
+
+Gradients: `appGradient`, `softGradient`, `periodGradient`, `fertilityGradient`, `ovulationGradient`, `pregnancyGradient`
+
+## Do / Don't
+
+```dart
+// ❌ BAD — new hex when a token exists
+color: Color(0xFFE85078)
+
+// ✅ GOOD
+color: AppColors.primary
+// or theme-aware:
+color: context.primaryColor
+```
+
+- Never introduce a second palette class or hardcoded brand hex in views
+- New colors → add a named token on `AppColors`, then use it
+- Prefer `AppColors` / `context.*` over `Colors.pink` / raw Material defaults for brand UI

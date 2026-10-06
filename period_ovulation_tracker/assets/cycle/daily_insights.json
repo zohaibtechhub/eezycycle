@@ -1,0 +1,1525 @@
+{
+  "version": 2,
+  "disclaimer": "Educational cycle insights only \u2014 not medical advice, diagnosis, or contraception.",
+  "phases": [
+    {
+      "id": "cycle_menstrual",
+      "phase": "menstrual",
+      "phase_label": "Period",
+      "headline": "My daily insights",
+      "subheadline": "Comfort, energy, and care matched to your period days",
+      "stories": [
+        {
+          "id": "body",
+          "card_title": "Your body today",
+          "card_image": "assets/cycle/images/menstrual_warm.jpg",
+          "card_header_color": "#F8E8EC",
+          "pages": [
+            {
+              "type": "body_week",
+              "background": "#F7F5F8",
+              "title": "Your body on your period",
+              "body": "The uterine lining is shedding. Prostaglandins can trigger cramps, lower-back ache, loose stools, and a heavier sense of fatigue \u2014 especially on days 1\u20133 when flow is often strongest.\n\nYour body is doing real work. Mild discomfort is common; pain that stops you from standing, soaking through protection hourly, or dizziness deserves a clinician\u2019s attention.",
+              "image": "assets/cycle/images/menstrual_warm.jpg",
+              "detail_label": "What helps many people:",
+              "detail_body": "A warm compress on the lower abdomen, slow walking, and magnesium-rich foods. Intense workouts can wait until energy returns.",
+              "duration_ms": 7000
+            },
+            {
+              "type": "focus",
+              "background": "#F7F5F8",
+              "eyebrow": "Today focus",
+              "focus_word": "ease",
+              "title": "Ease, don\u2019t force",
+              "body": "Hormone levels (estrogen and progesterone) are at their lowest. That can flatten motivation and make cold feel colder. Soften your to-do list and protect sleep tonight.",
+              "duration_ms": 6000,
+              "image": "assets/cycle/images/menstrual_rest.jpg"
+            },
+            {
+              "type": "tips",
+              "background": "#F7F5F8",
+              "title": "Body comfort toolkit",
+              "body": "Choose 1\u20132 that feel realistic today.",
+              "tips": [
+                {
+                  "title": "Heat therapy",
+                  "body": "A heating pad or warm shower for 15\u201320 minutes often eases uterine cramps better than pushing through."
+                },
+                {
+                  "title": "Iron awareness",
+                  "body": "If flow is moderate to heavy, include iron-friendly foods (lentils, leafy greens, lean meat) with vitamin C."
+                },
+                {
+                  "title": "Hydration cue",
+                  "body": "Dehydration can worsen headaches and cramps \u2014 aim for steady sips, not one big gulp."
+                },
+                {
+                  "title": "Bathroom breaks",
+                  "body": "Prostaglandins can speed digestion; keep tissues and comfort items handy."
+                },
+                {
+                  "title": "Position change",
+                  "body": "Knees-to-chest or a gentle child\u2019s pose can relieve lower-back pressure for some."
+                }
+              ],
+              "duration_ms": 8500
+            },
+            {
+              "type": "focus",
+              "background": "#F7F5F8",
+              "eyebrow": "Reminder",
+              "focus_word": "signal",
+              "title": "Know your red flags",
+              "body": "Soaking a pad/tampon every hour for several hours, clots larger than a coin, fainting, or pain that doesn\u2019t respond to usual care \u2014 contact a clinician. These tips are educational only.",
+              "duration_ms": 6000,
+              "image": "assets/cycle/images/tip_wellness.jpg"
+            }
+          ]
+        },
+        {
+          "id": "energy",
+          "card_title": "Energy & mood",
+          "card_image": "assets/cycle/images/menstrual_rest.jpg",
+          "card_header_color": "#F3E8FF",
+          "pages": [
+            {
+              "type": "focus",
+              "background": "#F7F5F8",
+              "eyebrow": "Energy map",
+              "focus_word": "inward",
+              "title": "An inward day is valid",
+              "body": "Many people feel quieter, more sensitive, or less social early in their period. That isn\u2019t laziness \u2014 it\u2019s a hormonal low. Matching your pace to your energy usually works better than fighting it.",
+              "duration_ms": 6000,
+              "image": "assets/cycle/images/tip_wellness.jpg"
+            },
+            {
+              "type": "tips",
+              "background": "#F7F5F8",
+              "title": "Mood & energy supports",
+              "body": "Small buffers protect your bandwidth.",
+              "tips": [
+                {
+                  "title": "Shorter plans",
+                  "body": "Swap a long outing for something closer and shorter if you can."
+                },
+                {
+                  "title": "Light exposure",
+                  "body": "Morning daylight for 5\u201310 minutes can gently lift mood without a hard workout."
+                },
+                {
+                  "title": "Warm layers",
+                  "body": "Temperature swings are common \u2014 dress so you can add or remove a layer."
+                },
+                {
+                  "title": "Name the feeling",
+                  "body": "A quick note in your log (\u201ctired + crampy\u201d) helps you spot patterns next cycle."
+                },
+                {
+                  "title": "Ask for help",
+                  "body": "If you share a household, one delegated chore today is a fair ask."
+                }
+              ],
+              "duration_ms": 8500
+            },
+            {
+              "type": "body_week",
+              "background": "#F7F5F8",
+              "title": "Why energy dips",
+              "body": "With estrogen low and blood loss underway, oxygen delivery and mood neurotransmitters can feel off. Sleep quality may also drop if pain interrupts the night.",
+              "image": "assets/cycle/images/menstrual_rest.jpg",
+              "detail_label": "Tonight:",
+              "detail_body": "An earlier wind-down, dimmer screens, and a warm drink often beat scrolling past midnight.",
+              "duration_ms": 7000
+            },
+            {
+              "type": "focus",
+              "background": "#F7F5F8",
+              "eyebrow": "Kindness",
+              "focus_word": "enough",
+              "title": "You are enough today",
+              "body": "Resting is productive when your body is shedding. Tomorrow\u2019s energy may already feel different.",
+              "duration_ms": 6000,
+              "image": "assets/cycle/images/tip_rest.jpg"
+            }
+          ]
+        },
+        {
+          "id": "care",
+          "card_title": "Food & care",
+          "card_image": "assets/cycle/images/tip_food.jpg",
+          "card_header_color": "#FFF0E6",
+          "pages": [
+            {
+              "type": "tips",
+              "background": "#F7F5F8",
+              "title": "Nourish through your flow",
+              "body": "Steady fuel beats perfection.",
+              "tips": [
+                {
+                  "title": "Iron + C plate",
+                  "body": "Beans, greens, or lean meat with citrus, peppers, or tomatoes."
+                },
+                {
+                  "title": "Steady snacks",
+                  "body": "Banana with nut butter, yogurt, or cheese and crackers blunt crashes."
+                },
+                {
+                  "title": "Warm meals",
+                  "body": "Soups and cooked veggies often sit better than cold salads during cramps."
+                },
+                {
+                  "title": "Salt awareness",
+                  "body": "If you\u2019re bloated, ease up on ultra-salty packaged snacks."
+                },
+                {
+                  "title": "Comfort without guilt",
+                  "body": "A small treat alongside protein is fine \u2014 restriction often backfires."
+                }
+              ],
+              "duration_ms": 8500
+            },
+            {
+              "type": "body_week",
+              "background": "#F7F5F8",
+              "title": "Care that fits real life",
+              "body": "Period care is more than products. It\u2019s how you move, eat, rest, and speak to yourself. Build a tiny kit: heat, hydration, preferred protection, and one comfort snack.",
+              "image": "assets/cycle/images/luteal_comfort.jpg",
+              "detail_label": "Product tip:",
+              "detail_body": "Change protection regularly and use what feels secure \u2014 pads, cups, discs, or period underwear.",
+              "duration_ms": 7000
+            },
+            {
+              "type": "tips",
+              "background": "#F7F5F8",
+              "title": "Movement that helps",
+              "body": "Gentle beats intense on heavy days.",
+              "tips": [
+                {
+                  "title": "5\u201315 min walk",
+                  "body": "Light walking can ease cramps for many without draining you."
+                },
+                {
+                  "title": "Hip stretch",
+                  "body": "Cat-cow or a supported squat hold for 30\u201360 seconds."
+                },
+                {
+                  "title": "Skip the PR",
+                  "body": "Save hard intervals and heavy PRs for follicular or ovulation energy."
+                },
+                {
+                  "title": "Rest day is allowed",
+                  "body": "If flow is heavy or sleep was poor, full rest is smart training."
+                }
+              ],
+              "duration_ms": 8500
+            },
+            {
+              "type": "focus",
+              "background": "#F7F5F8",
+              "eyebrow": "Close",
+              "focus_word": "listen",
+              "title": "Listen, then adjust",
+              "body": "Your cycle is data. What helped last period? Keep that. What didn\u2019t? Drop it without judgment.",
+              "duration_ms": 6000,
+              "image": "assets/cycle/images/tip_wellness.jpg"
+            }
+          ]
+        },
+        {
+          "id": "symptoms",
+          "card_title": "Common signals",
+          "card_image": "assets/cycle/images/tip_wellness.jpg",
+          "card_header_color": "#EEF2FC",
+          "pages": [
+            {
+              "type": "tips",
+              "background": "#F7F5F8",
+              "title": "Signals many people notice",
+              "body": "Logging helps you prepare next month.",
+              "tips": [
+                {
+                  "title": "Cramps",
+                  "body": "Usually strongest early; heat + rest often help."
+                },
+                {
+                  "title": "Fatigue",
+                  "body": "Extra sleep and iron-friendly meals can support recovery."
+                },
+                {
+                  "title": "Headache",
+                  "body": "Hydration, food timing, and caffeine habits matter \u2014 track what correlates."
+                },
+                {
+                  "title": "Backache",
+                  "body": "A pillow under knees while lying down can reduce strain."
+                },
+                {
+                  "title": "Mood dips",
+                  "body": "Common when hormones bottom out; softer social plans help."
+                }
+              ],
+              "duration_ms": 8500
+            },
+            {
+              "type": "focus",
+              "background": "#F7F5F8",
+              "eyebrow": "When to check in",
+              "focus_word": "care",
+              "title": "Trust your instincts",
+              "body": "If symptoms are new, suddenly worse, or worry you, a clinician visit is appropriate. Apps educate \u2014 they don\u2019t diagnose.",
+              "duration_ms": 6000,
+              "image": "assets/cycle/images/menstrual_warm.jpg"
+            },
+            {
+              "type": "tips",
+              "background": "#F7F5F8",
+              "title": "Prep for tomorrow",
+              "body": "A little setup makes day 2 kinder.",
+              "tips": [
+                {
+                  "title": "Charge your heat pad",
+                  "body": "Or set out a hot-water bottle tonight."
+                },
+                {
+                  "title": "Lay out clothes",
+                  "body": "Comfortable waistbands reduce morning friction."
+                },
+                {
+                  "title": "Snack ready",
+                  "body": "Put a protein snack where you\u2019ll see it."
+                },
+                {
+                  "title": "Calendar buffer",
+                  "body": "Block 15 minutes of white space if your day is packed."
+                }
+              ],
+              "duration_ms": 8500
+            }
+          ]
+        }
+      ],
+      "what_to_expect": {
+        "title": "What to expect",
+        "items": [
+          {
+            "key": "flow",
+            "label": "Flow & comfort",
+            "image": "assets/cycle/images/menstrual_warm.jpg",
+            "summary": "Flow often peaks early, then eases over several days.",
+            "sections": [
+              {
+                "heading": "Typical pattern",
+                "body": "Days 1\u20132 can be heavier. Color may shift from bright red to brown as days pass."
+              },
+              {
+                "heading": "Comfort",
+                "body": "Heat, hydration, and gentle movement help many people more than intense exercise."
+              },
+              {
+                "heading": "Seek care if",
+                "body": "You soak protection hourly for hours, pass large clots, or feel faint."
+              }
+            ]
+          },
+          {
+            "key": "mood",
+            "label": "Mood & energy",
+            "image": "assets/cycle/images/menstrual_rest.jpg",
+            "summary": "Lower energy and a quieter mood are common \u2014 plan lighter days.",
+            "sections": [
+              {
+                "heading": "Why",
+                "body": "Estrogen and progesterone are low; sleep may be interrupted by pain."
+              },
+              {
+                "heading": "Support",
+                "body": "Protect bedtime, shorten social plans, and ask for help with chores."
+              },
+              {
+                "heading": "Track",
+                "body": "A one-line log helps you predict next cycle\u2019s tough days."
+              }
+            ]
+          },
+          {
+            "key": "move",
+            "label": "Movement",
+            "image": "assets/cycle/images/tip_exercise.jpg",
+            "summary": "Gentle walks usually beat intense sessions on heavy-flow days.",
+            "sections": [
+              {
+                "heading": "Idea",
+                "body": "5\u201315 minutes of easy walking or stretching is enough."
+              },
+              {
+                "heading": "Skip for now",
+                "body": "Max-effort intervals and heavy PRs if cramps or fatigue are high."
+              },
+              {
+                "heading": "Return",
+                "body": "Energy often rebounds in the follicular phase \u2014 training can ramp then."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "cycle_follicular",
+      "phase": "follicular",
+      "phase_label": "Follicular",
+      "headline": "My daily insights",
+      "subheadline": "Energy and clarity often rise after your period",
+      "stories": [
+        {
+          "id": "body",
+          "card_title": "Your body today",
+          "card_image": "assets/cycle/images/follicular_energy.jpg",
+          "card_header_color": "#E8F4FA",
+          "pages": [
+            {
+              "type": "body_week",
+              "background": "#F7F5F8",
+              "title": "After your period \u2014 the rebuild",
+              "body": "Estrogen is climbing as follicles mature in the ovaries. Many people notice clearer thinking, brighter mood, better skin, and more motivation for workouts or creative projects.\n\nThink of this as your cycle\u2019s spring: recovery from the bleed and rising capacity.",
+              "image": "assets/cycle/images/follicular_energy.jpg",
+              "detail_label": "Science note:",
+              "detail_body": "Rising estrogen supports serotonin pathways for many \u2014 which is why mood and energy often lift together.",
+              "duration_ms": 7000
+            },
+            {
+              "type": "focus",
+              "background": "#F7F5F8",
+              "eyebrow": "Today focus",
+              "focus_word": "build",
+              "title": "Build momentum",
+              "body": "This is a strong window for new habits, strength training, skill practice, and projects that need focus \u2014 if you feel up for them.",
+              "duration_ms": 6000,
+              "image": "assets/cycle/images/follicular_energy.jpg"
+            },
+            {
+              "type": "tips",
+              "background": "#F7F5F8",
+              "title": "Body signals to notice",
+              "body": "Optional cues \u2014 not everyone feels all of them.",
+              "tips": [
+                {
+                  "title": "Lighter flow ending",
+                  "body": "Bleeding tapers; energy often returns within a day or two after."
+                },
+                {
+                  "title": "Cervical mucus changes",
+                  "body": "May shift toward creamier then clearer as you approach fertile days."
+                },
+                {
+                  "title": "Libido rising",
+                  "body": "Interest in intimacy can increase later in this phase."
+                },
+                {
+                  "title": "Workout tolerance",
+                  "body": "Recovery between sessions may feel better than during your period."
+                },
+                {
+                  "title": "Sleep quality",
+                  "body": "Often improves once cramps ease \u2014 protect that rebound."
+                }
+              ],
+              "duration_ms": 8500
+            },
+            {
+              "type": "focus",
+              "background": "#F7F5F8",
+              "eyebrow": "Pace",
+              "focus_word": "ramp",
+              "title": "Ramp, don\u2019t sprint overnight",
+              "body": "Even with rising energy, sleep and protein still matter. Overbooking the first good day can crash you by midweek.",
+              "duration_ms": 6000,
+              "image": "assets/cycle/images/tip_wellness.jpg"
+            }
+          ]
+        },
+        {
+          "id": "energy",
+          "card_title": "Energy & mood",
+          "card_image": "assets/cycle/images/tip_exercise.jpg",
+          "card_header_color": "#E8F7F0",
+          "pages": [
+            {
+              "type": "tips",
+              "background": "#F7F5F8",
+              "title": "Use the follicular lift",
+              "body": "Channel rising energy with intention.",
+              "tips": [
+                {
+                  "title": "Strength session",
+                  "body": "If exercise is approved for you, this phase often feels best for lifting or harder classes."
+                },
+                {
+                  "title": "Social plans",
+                  "body": "Energy for friends and dates often returns \u2014 schedule something you enjoy."
+                },
+                {
+                  "title": "Deep work",
+                  "body": "Learning and focused tasks can feel easier as brain fog lifts for many."
+                },
+                {
+                  "title": "Habit stacking",
+                  "body": "Attach a tiny new habit to something you already do daily."
+                },
+                {
+                  "title": "Creative sprints",
+                  "body": "Brainstorming and starting projects fit this phase well."
+                }
+              ],
+              "duration_ms": 8500
+            },
+            {
+              "type": "body_week",
+              "background": "#F7F5F8",
+              "title": "Mood on the rise",
+              "body": "As estrogen increases, many people feel more optimistic and outgoing. That doesn\u2019t mean you must be \u201con\u201d all day \u2014 it means you have more capacity to spend where it matters.",
+              "image": "assets/cycle/images/tip_wellness.jpg",
+              "detail_label": "Try this:",
+              "detail_body": "Pick one meaningful task and one restorative break. Balance keeps the lift sustainable.",
+              "duration_ms": 7000
+            },
+            {
+              "type": "focus",
+              "background": "#F7F5F8",
+              "eyebrow": "Mindset",
+              "focus_word": "fresh",
+              "title": "Fresh-start energy",
+              "body": "You\u2019re past the heaviest bleed days. Celebrate small wins without stacking your calendar edge-to-edge.",
+              "duration_ms": 6000,
+              "image": "assets/cycle/images/follicular_energy.jpg"
+            },
+            {
+              "type": "tips",
+              "background": "#F7F5F8",
+              "title": "Protect the rebound",
+              "body": "Rising energy still needs recovery.",
+              "tips": [
+                {
+                  "title": "Keep bedtime",
+                  "body": "Don\u2019t trade sleep for extra productivity every night."
+                },
+                {
+                  "title": "Fuel workouts",
+                  "body": "Under-eating can flatten the follicular advantage."
+                },
+                {
+                  "title": "Deload signals",
+                  "body": "If resting heart rate or mood dips, take an easier day."
+                },
+                {
+                  "title": "Joy movement",
+                  "body": "Not every session needs to be a PR \u2014 enjoy moving."
+                }
+              ],
+              "duration_ms": 8500
+            }
+          ]
+        },
+        {
+          "id": "care",
+          "card_title": "Food & fuel",
+          "card_image": "assets/cycle/images/follicular_food.jpg",
+          "card_header_color": "#FFF8F2",
+          "pages": [
+            {
+              "type": "tips",
+              "background": "#F7F5F8",
+              "title": "Fuel the climb",
+              "body": "Protein and colorful plants support recovery and energy.",
+              "tips": [
+                {
+                  "title": "Protein breakfast",
+                  "body": "Eggs, yogurt, tofu, or a smoothie with protein within an hour of waking if mornings rush you."
+                },
+                {
+                  "title": "Colorful produce",
+                  "body": "Two different veggies or fruits today support micronutrients."
+                },
+                {
+                  "title": "Hydration habit",
+                  "body": "Keep a bottle nearby as workouts pick up."
+                },
+                {
+                  "title": "Complex carbs",
+                  "body": "Oats, quinoa, or sweet potato steady afternoon training."
+                },
+                {
+                  "title": "Healthy fats",
+                  "body": "Avocado, nuts, or olive oil support hormone production."
+                }
+              ],
+              "duration_ms": 8500
+            },
+            {
+              "type": "body_week",
+              "background": "#F7F5F8",
+              "title": "Nourish to move",
+              "body": "As energy returns, pair movement with real meals. Skipping food to \u201cfeel lighter\u201d often backfires with fatigue and irritability.",
+              "image": "assets/cycle/images/follicular_food.jpg",
+              "detail_label": "Simple plate:",
+              "detail_body": "\u00bd plants, \u00bc protein, \u00bc carbs \u2014 adjust to your hunger and culture.",
+              "duration_ms": 7000
+            },
+            {
+              "type": "tips",
+              "background": "#F7F5F8",
+              "title": "Kitchen shortcuts",
+              "body": "Make good fuel easy.",
+              "tips": [
+                {
+                  "title": "Prep once",
+                  "body": "Wash fruit or cook a grain you\u2019ll reuse for 2\u20133 days."
+                },
+                {
+                  "title": "Snack station",
+                  "body": "Nuts, yogurt, or cheese sticks visible in the fridge."
+                },
+                {
+                  "title": "Post-workout",
+                  "body": "Protein + carb within a couple of hours supports recovery."
+                },
+                {
+                  "title": "Coffee with food",
+                  "body": "If caffeine jitters you, pair it with breakfast."
+                }
+              ],
+              "duration_ms": 8500
+            },
+            {
+              "type": "focus",
+              "background": "#F7F5F8",
+              "eyebrow": "Close",
+              "focus_word": "steady",
+              "title": "Steady wins",
+              "body": "Consistency beats a perfect day. One solid meal and one intentional movement already count.",
+              "duration_ms": 6000,
+              "image": "assets/cycle/images/tip_food.jpg"
+            }
+          ]
+        },
+        {
+          "id": "symptoms",
+          "card_title": "What you might feel",
+          "card_image": "assets/cycle/images/tip_wellness.jpg",
+          "card_header_color": "#E8F4FA",
+          "pages": [
+            {
+              "type": "tips",
+              "background": "#F7F5F8",
+              "title": "Common follicular notes",
+              "body": "Optional \u2014 cycles vary.",
+              "tips": [
+                {
+                  "title": "Brighter mood",
+                  "body": "Many feel more optimistic and social."
+                },
+                {
+                  "title": "Clearer skin",
+                  "body": "For some, skin calms after period hormones shift."
+                },
+                {
+                  "title": "Higher stamina",
+                  "body": "Workouts may feel stronger."
+                },
+                {
+                  "title": "Rising libido",
+                  "body": "Often increases toward ovulation."
+                },
+                {
+                  "title": "Less bloating",
+                  "body": "Compared with late luteal for many people."
+                }
+              ],
+              "duration_ms": 8500
+            },
+            {
+              "type": "focus",
+              "background": "#F7F5F8",
+              "eyebrow": "Still listening",
+              "focus_word": "you",
+              "title": "Your pattern is the guide",
+              "body": "If follicular days still feel heavy for you, that\u2019s valid. Illness, stress, and sleep change the script \u2014 log what you notice.",
+              "duration_ms": 6000,
+              "image": "assets/cycle/images/follicular_energy.jpg"
+            },
+            {
+              "type": "tips",
+              "background": "#F7F5F8",
+              "title": "Set up fertile-week awareness",
+              "body": "Still educational, not contraception.",
+              "tips": [
+                {
+                  "title": "Optional LH tests",
+                  "body": "If tracking ovulation, read your kit\u2019s timing advice."
+                },
+                {
+                  "title": "Mucus check",
+                  "body": "Noticing changes is optional education, not a diagnosis."
+                },
+                {
+                  "title": "Partner talk",
+                  "body": "If relevant, align on goals (TTC vs preventing) before fertile days."
+                },
+                {
+                  "title": "Calendar note",
+                  "body": "Mark how you feel now to compare next cycle."
+                }
+              ],
+              "duration_ms": 8500
+            }
+          ]
+        }
+      ],
+      "what_to_expect": {
+        "title": "What to expect",
+        "items": [
+          {
+            "key": "energy",
+            "label": "Rising energy",
+            "image": "assets/cycle/images/follicular_energy.jpg",
+            "summary": "Motivation and mood often improve after bleeding eases.",
+            "sections": [
+              {
+                "heading": "Use it",
+                "body": "Strong stretch for training blocks, learning, and creative starts."
+              },
+              {
+                "heading": "Balance",
+                "body": "Keep sleep sacred so the lift lasts."
+              },
+              {
+                "heading": "Track",
+                "body": "Note which habits feel easiest now."
+              }
+            ]
+          },
+          {
+            "key": "skin",
+            "label": "Skin & body",
+            "image": "assets/cycle/images/tip_wellness.jpg",
+            "summary": "Skin may look clearer for some; others notice little change.",
+            "sections": [
+              {
+                "heading": "Note",
+                "body": "Everyone differs \u2014 your log is more useful than averages."
+              },
+              {
+                "heading": "Care",
+                "body": "Keep a simple routine; avoid over-exfoliating if skin is calm."
+              },
+              {
+                "heading": "Body",
+                "body": "Bloating often eases versus late luteal."
+              }
+            ]
+          },
+          {
+            "key": "food",
+            "label": "Nourish",
+            "image": "assets/cycle/images/follicular_food.jpg",
+            "summary": "Fuel workouts with protein, plants, and steady carbs.",
+            "sections": [
+              {
+                "heading": "Idea",
+                "body": "Build plates around protein, fiber, and healthy fats."
+              },
+              {
+                "heading": "Timing",
+                "body": "Eat around training so energy stays even."
+              },
+              {
+                "heading": "Hydrate",
+                "body": "Increase fluids as activity rises."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "cycle_ovulation",
+      "phase": "ovulation",
+      "phase_label": "Fertile window",
+      "headline": "My daily insights",
+      "subheadline": "Peak fertile days \u2014 timing estimates only, not contraception",
+      "stories": [
+        {
+          "id": "body",
+          "card_title": "Your fertile window",
+          "card_image": "assets/cycle/images/ovulation_bloom.jpg",
+          "card_header_color": "#FCE8F0",
+          "pages": [
+            {
+              "type": "body_week",
+              "background": "#F7F5F8",
+              "title": "Around ovulation",
+              "body": "An egg may be released from an ovary. Estrogen peaks then dips; luteinizing hormone (LH) surges beforehand. Cervical mucus often becomes clearer and more stretchy. Libido and social energy can feel higher.\n\nThis window is short. Prediction apps estimate \u2014 they don\u2019t confirm ovulation for every cycle.",
+              "image": "assets/cycle/images/ovulation_bloom.jpg",
+              "detail_label": "Important:",
+              "detail_body": "Fertile-window estimates are not birth control. Use contraception if you are avoiding pregnancy.",
+              "duration_ms": 7000
+            },
+            {
+              "type": "focus",
+              "background": "#F7F5F8",
+              "eyebrow": "Today focus",
+              "focus_word": "aware",
+              "title": "Stay aware, stay kind",
+              "body": "Mild one-sided twinges (mittelschmerz) can happen. Sharp, severe, or one-sided pain with vomiting or fainting needs urgent care.",
+              "duration_ms": 6000,
+              "image": "assets/cycle/images/ovulation_bloom.jpg"
+            },
+            {
+              "type": "tips",
+              "background": "#F7F5F8",
+              "title": "Body cues some people notice",
+              "body": "Optional signals \u2014 not required to \u201cprove\u201d anything.",
+              "tips": [
+                {
+                  "title": "Clearer mucus",
+                  "body": "Often compared to egg white; may be more stretchy."
+                },
+                {
+                  "title": "LH test line",
+                  "body": "If testing, follow your kit (many use afternoon urine)."
+                },
+                {
+                  "title": "Brief twinge",
+                  "body": "Mild ache on one side can occur; severe pain is not \u201cnormal ovulation.\u201d"
+                },
+                {
+                  "title": "Higher desire",
+                  "body": "Libido often rises for some around this window."
+                },
+                {
+                  "title": "Energy peak",
+                  "body": "Workouts and social plans may feel especially good."
+                }
+              ],
+              "duration_ms": 8500
+            },
+            {
+              "type": "focus",
+              "background": "#F7F5F8",
+              "eyebrow": "Clarity",
+              "focus_word": "estimate",
+              "title": "Estimate \u2260 certainty",
+              "body": "Stress, illness, PCOS, and postpartum cycles can shift timing. If conception or contraception matters medically, talk with a clinician.",
+              "duration_ms": 6000,
+              "image": "assets/cycle/images/tip_wellness.jpg"
+            }
+          ]
+        },
+        {
+          "id": "energy",
+          "card_title": "Connection & drive",
+          "card_image": "assets/cycle/images/ovulation_move.jpg",
+          "card_header_color": "#FFF0F5",
+          "pages": [
+            {
+              "type": "tips",
+              "background": "#F7F5F8",
+              "title": "Channel the peak",
+              "body": "Many feel more social, confident, and physical.",
+              "tips": [
+                {
+                  "title": "Intimacy timing",
+                  "body": "If trying to conceive, every-other-day sex around this window is a common approach \u2014 ask your clinician what\u2019s right for you."
+                },
+                {
+                  "title": "Move with joy",
+                  "body": "Dance, runs, courts sports, or a hard class may feel great."
+                },
+                {
+                  "title": "Boundary check",
+                  "body": "High energy can lead to overcommitting \u2014 leave margin."
+                },
+                {
+                  "title": "Communication",
+                  "body": "If you have a partner, share goals clearly (TTC vs preventing)."
+                },
+                {
+                  "title": "Confidence boost",
+                  "body": "Use the lift for a conversation or task you\u2019ve postponed."
+                }
+              ],
+              "duration_ms": 8500
+            },
+            {
+              "type": "body_week",
+              "background": "#F7F5F8",
+              "title": "Why desire can rise",
+              "body": "Estrogen\u2019s peak and evolutionary timing around ovulation are linked with higher interest in intimacy for many \u2014 not everyone, and not every cycle.",
+              "image": "assets/cycle/images/ovulation_move.jpg",
+              "detail_label": "Consent & comfort:",
+              "detail_body": "Desire is not obligation. Your boundaries matter on high-energy days too.",
+              "duration_ms": 7000
+            },
+            {
+              "type": "focus",
+              "background": "#F7F5F8",
+              "eyebrow": "Reminder",
+              "focus_word": "protect",
+              "title": "Protection still matters",
+              "body": "If you are not trying to conceive, this is the week to be most consistent with your chosen contraception method.",
+              "duration_ms": 6000,
+              "image": "assets/cycle/images/tip_wellness.jpg"
+            },
+            {
+              "type": "tips",
+              "background": "#F7F5F8",
+              "title": "Stay fueled at the peak",
+              "body": "Busy fertile days still need basics.",
+              "tips": [
+                {
+                  "title": "Don\u2019t skip meals",
+                  "body": "Social plans aren\u2019t a reason to run on coffee alone."
+                },
+                {
+                  "title": "Hydrate more",
+                  "body": "Higher activity needs more fluid."
+                },
+                {
+                  "title": "Sleep still wins",
+                  "body": "Late nights stack quickly \u2014 keep one early bedtime."
+                },
+                {
+                  "title": "Afterglow rest",
+                  "body": "If you trained hard, schedule an easier day next."
+                }
+              ],
+              "duration_ms": 8500
+            }
+          ]
+        },
+        {
+          "id": "care",
+          "card_title": "Care tips",
+          "card_image": "assets/cycle/images/tip_food.jpg",
+          "card_header_color": "#E8F7F0",
+          "pages": [
+            {
+              "type": "tips",
+              "background": "#F7F5F8",
+              "title": "Support peak days",
+              "body": "Simple habits keep you feeling your best.",
+              "tips": [
+                {
+                  "title": "Hydrate well",
+                  "body": "Higher activity and libido days still need fluids."
+                },
+                {
+                  "title": "Light balanced meals",
+                  "body": "Protein + plants + carbs keep mood steady."
+                },
+                {
+                  "title": "LH test tip",
+                  "body": "If testing, read the insert \u2014 timing varies by brand."
+                },
+                {
+                  "title": "Underwear backup",
+                  "body": "More mucus can mean a panty liner for comfort."
+                },
+                {
+                  "title": "Calendar note",
+                  "body": "Jot energy and mucus notes for next cycle\u2019s pattern."
+                }
+              ],
+              "duration_ms": 8500
+            },
+            {
+              "type": "body_week",
+              "background": "#F7F5F8",
+              "title": "Self-care isn\u2019t only soft",
+              "body": "At your peak you might crave intensity. Care can mean a great workout and also saying no to a third plan so you don\u2019t crash into luteal depleted.",
+              "image": "assets/cycle/images/tip_rest.jpg",
+              "detail_label": "One question:",
+              "detail_body": "What would make tomorrow feel good \u2014 not just today impressive?",
+              "duration_ms": 7000
+            },
+            {
+              "type": "tips",
+              "background": "#F7F5F8",
+              "title": "If you\u2019re trying to conceive",
+              "body": "Educational only \u2014 clinician guidance first.",
+              "tips": [
+                {
+                  "title": "Frequency over perfection",
+                  "body": "Regular intimacy across the window beats one \u201cperfect\u201d timed attempt for many."
+                },
+                {
+                  "title": "Prenatal vitamin",
+                  "body": "If recommended by your clinician, stay consistent."
+                },
+                {
+                  "title": "Limit alcohol",
+                  "body": "Many clinicians advise caution when TTC."
+                },
+                {
+                  "title": "Reduce stress load",
+                  "body": "You can\u2019t force ovulation with worry \u2014 support sleep and meals."
+                },
+                {
+                  "title": "Know when to ask",
+                  "body": "If cycles are very irregular or you\u2019re concerned, book a visit."
+                }
+              ],
+              "duration_ms": 8500
+            },
+            {
+              "type": "focus",
+              "background": "#F7F5F8",
+              "eyebrow": "Close",
+              "focus_word": "choice",
+              "title": "Your goal, your call",
+              "body": "Whether you\u2019re preventing, open, or actively trying \u2014 clarity with yourself reduces anxiety this week.",
+              "duration_ms": 6000,
+              "image": "assets/cycle/images/ovulation_bloom.jpg"
+            }
+          ]
+        },
+        {
+          "id": "symptoms",
+          "card_title": "Signals & safety",
+          "card_image": "assets/cycle/images/tip_wellness.jpg",
+          "card_header_color": "#FCE8F0",
+          "pages": [
+            {
+              "type": "tips",
+              "background": "#F7F5F8",
+              "title": "Common around ovulation",
+              "body": "Mild and brief for many.",
+              "tips": [
+                {
+                  "title": "Mittelschmerz",
+                  "body": "Mild one-sided ache lasting minutes to hours."
+                },
+                {
+                  "title": "Spotting",
+                  "body": "Light pink spotting can occur; heavy bleeding isn\u2019t typical ovulation."
+                },
+                {
+                  "title": "Breast tenderness",
+                  "body": "Can start near ovulation for some."
+                },
+                {
+                  "title": "Bloat",
+                  "body": "Temporary water retention possible."
+                },
+                {
+                  "title": "Heightened smell/taste",
+                  "body": "Anecdotal for some \u2014 track if you notice it."
+                }
+              ],
+              "duration_ms": 8500
+            },
+            {
+              "type": "focus",
+              "background": "#F7F5F8",
+              "eyebrow": "Red flags",
+              "focus_word": "urgent",
+              "title": "Don\u2019t tough out severe pain",
+              "body": "Sudden severe pelvic pain, pain with fever, fainting, or shoulder-tip pain needs urgent medical care \u2014 these are not \u201cjust ovulation.\u201d",
+              "duration_ms": 6000,
+              "image": "assets/cycle/images/ovulation_bloom.jpg"
+            },
+            {
+              "type": "tips",
+              "background": "#F7F5F8",
+              "title": "Logging ideas",
+              "body": "Keep it light and useful.",
+              "tips": [
+                {
+                  "title": "Energy 1\u20135",
+                  "body": "A quick score beats a long journal entry."
+                },
+                {
+                  "title": "Mucus word",
+                  "body": "Dry / sticky / creamy / clear \u2014 whatever vocabulary you like."
+                },
+                {
+                  "title": "LH result",
+                  "body": "Positive / negative / invalid if you test."
+                },
+                {
+                  "title": "Mood tag",
+                  "body": "One emoji or word is enough."
+                }
+              ],
+              "duration_ms": 8500
+            }
+          ]
+        }
+      ],
+      "what_to_expect": {
+        "title": "What to expect",
+        "items": [
+          {
+            "key": "fertile",
+            "label": "Fertile signs",
+            "image": "assets/cycle/images/ovulation_bloom.jpg",
+            "summary": "Clearer mucus and higher drive are common \u2014 not guaranteed.",
+            "sections": [
+              {
+                "heading": "Note",
+                "body": "Not everyone gets clear signs every cycle."
+              },
+              {
+                "heading": "Safety",
+                "body": "Estimates are not contraception."
+              },
+              {
+                "heading": "Care",
+                "body": "Severe pain is not normal \u2014 seek help."
+              }
+            ]
+          },
+          {
+            "key": "move",
+            "label": "Peak energy",
+            "image": "assets/cycle/images/ovulation_move.jpg",
+            "summary": "A great window for challenging workouts and social plans.",
+            "sections": [
+              {
+                "heading": "Idea",
+                "body": "Schedule a hard session if you feel strong."
+              },
+              {
+                "heading": "Balance",
+                "body": "Leave recovery space afterward."
+              },
+              {
+                "heading": "Joy",
+                "body": "Pick movement you actually like."
+              }
+            ]
+          },
+          {
+            "key": "care",
+            "label": "Self-care",
+            "image": "assets/cycle/images/tip_wellness.jpg",
+            "summary": "Stay hydrated, eat real meals, and keep contraception consistent if needed.",
+            "sections": [
+              {
+                "heading": "Reminder",
+                "body": "Estimates \u2260 birth control."
+              },
+              {
+                "heading": "Fuel",
+                "body": "Don\u2019t skip meals on busy peak days."
+              },
+              {
+                "heading": "Sleep",
+                "body": "Protect at least one early night this week."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "cycle_luteal",
+      "phase": "luteal",
+      "phase_label": "Luteal",
+      "headline": "My daily insights",
+      "subheadline": "Progesterone rises \u2014 a softer pace often helps",
+      "stories": [
+        {
+          "id": "body",
+          "card_title": "Your body today",
+          "card_image": "assets/cycle/images/luteal_calm.jpg",
+          "card_header_color": "#EEF2FC",
+          "pages": [
+            {
+              "type": "body_week",
+              "background": "#F7F5F8",
+              "title": "After ovulation \u2014 the luteal stretch",
+              "body": "Progesterone rises to support a potential pregnancy. If there\u2019s no pregnancy, both progesterone and estrogen fall before your period \u2014 and that drop is strongly linked with PMS for many.\n\nBloating, breast tenderness, warmer body temperature, earlier hunger, and shorter patience are common. You\u2019re not imagining it.",
+              "image": "assets/cycle/images/luteal_calm.jpg",
+              "detail_label": "PMS window:",
+              "detail_body": "The week before your period is when mood and comfort shifts often peak. Tracking helps you plan buffer days.",
+              "duration_ms": 7000
+            },
+            {
+              "type": "focus",
+              "background": "#F7F5F8",
+              "eyebrow": "Today focus",
+              "focus_word": "soften",
+              "title": "Soften the edges",
+              "body": "You don\u2019t need to match follicular intensity. Strength plus recovery often feels better than max HIIT when progesterone is high.",
+              "duration_ms": 6000,
+              "image": "assets/cycle/images/luteal_comfort.jpg"
+            },
+            {
+              "type": "tips",
+              "background": "#F7F5F8",
+              "title": "Body changes many notice",
+              "body": "Normalize the list \u2014 then support yourself.",
+              "tips": [
+                {
+                  "title": "Bloat",
+                  "body": "Water retention and slower digestion can make waistbands feel tighter."
+                },
+                {
+                  "title": "Tender breasts",
+                  "body": "Supportive bras and reduced caffeine help some people."
+                },
+                {
+                  "title": "Hunger up",
+                  "body": "Earlier or larger meals aren\u2019t a failure \u2014 fuel intentionally."
+                },
+                {
+                  "title": "Warmer sleep",
+                  "body": "You may run warmer; lighter bedding can help."
+                },
+                {
+                  "title": "Skin changes",
+                  "body": "Oilier skin or breakouts can appear premenstrually."
+                }
+              ],
+              "duration_ms": 8500
+            },
+            {
+              "type": "focus",
+              "background": "#F7F5F8",
+              "eyebrow": "Perspective",
+              "focus_word": "phase",
+              "title": "This phase passes",
+              "body": "Luteal isn\u2019t forever. Knowing \u201cI\u2019m in luteal\u201d can turn self-blame into a plan: sleep, food, fewer stacked deadlines.",
+              "duration_ms": 6000,
+              "image": "assets/cycle/images/luteal_calm.jpg"
+            }
+          ]
+        },
+        {
+          "id": "energy",
+          "card_title": "Mood & mind",
+          "card_image": "assets/cycle/images/tip_wellness.jpg",
+          "card_header_color": "#F3E8FF",
+          "pages": [
+            {
+              "type": "tips",
+              "background": "#F7F5F8",
+              "title": "Steady the luteal stretch",
+              "body": "Small buffers make a big difference.",
+              "tips": [
+                {
+                  "title": "Sleep priority",
+                  "body": "Aim for a consistent wind-down \u2014 progesterone can disrupt sleep for some."
+                },
+                {
+                  "title": "Salt & bloat",
+                  "body": "If puffiness bothers you, ease ultra-salty packaged foods."
+                },
+                {
+                  "title": "Mood tools",
+                  "body": "Walks, journaling, or a 2-minute breath break when irritability spikes."
+                },
+                {
+                  "title": "Calendar triage",
+                  "body": "Move non-urgent conflict conversations if you can."
+                },
+                {
+                  "title": "Social dose",
+                  "body": "Prefer smaller plans over packed nights if you\u2019re tender."
+                }
+              ],
+              "duration_ms": 8500
+            },
+            {
+              "type": "body_week",
+              "background": "#F7F5F8",
+              "title": "Why mood can wobble",
+              "body": "Falling hormones before your period affect neurotransmitters involved in mood regulation. Stress, poor sleep, and low blood sugar make the wobble louder.",
+              "image": "assets/cycle/images/tip_wellness.jpg",
+              "detail_label": "Stabilize the basics:",
+              "detail_body": "Protein-rich meals, daylight, and a fixed bedtime are boring \u2014 and effective for many.",
+              "duration_ms": 7000
+            },
+            {
+              "type": "focus",
+              "background": "#F7F5F8",
+              "eyebrow": "Kindness",
+              "focus_word": "enough",
+              "title": "You are enough",
+              "body": "Cravings and lower patience are hormonal context \u2014 not a character flaw. Plan comfort without guilt.",
+              "duration_ms": 6000,
+              "image": "assets/cycle/images/luteal_calm.jpg"
+            },
+            {
+              "type": "tips",
+              "background": "#F7F5F8",
+              "title": "Irritability first-aid",
+              "body": "Use when you\u2019re already mid-spiral.",
+              "tips": [
+                {
+                  "title": "Pause texting",
+                  "body": "Draft, don\u2019t send, for 10 minutes."
+                },
+                {
+                  "title": "Blood sugar check",
+                  "body": "Eat something with protein before hard talks."
+                },
+                {
+                  "title": "Temperature change",
+                  "body": "Cool water on wrists or a short outside breath."
+                },
+                {
+                  "title": "Name it aloud",
+                  "body": "\u201cI\u2019m in luteal and overloaded\u201d can reduce shame."
+                },
+                {
+                  "title": "Ask for space",
+                  "body": "A 20-minute alone reset is allowed."
+                }
+              ],
+              "duration_ms": 8500
+            }
+          ]
+        },
+        {
+          "id": "care",
+          "card_title": "Food & comfort",
+          "card_image": "assets/cycle/images/luteal_comfort.jpg",
+          "card_header_color": "#FFF8F2",
+          "pages": [
+            {
+              "type": "tips",
+              "background": "#F7F5F8",
+              "title": "Craving-smart plates",
+              "body": "Balance comfort with staying steady.",
+              "tips": [
+                {
+                  "title": "Magnesium foods",
+                  "body": "Dark chocolate, bananas, pumpkin seeds, or leafy greens may ease tension for some."
+                },
+                {
+                  "title": "Complex carbs",
+                  "body": "Oats, rice, or sweet potato can steady evening hunger."
+                },
+                {
+                  "title": "Warm meals",
+                  "body": "Soups and warm bowls often feel better than cold salads now."
+                },
+                {
+                  "title": "Protein at dinner",
+                  "body": "Helps overnight fullness and next-morning mood for many."
+                },
+                {
+                  "title": "Pair sweets",
+                  "body": "If you want dessert, add yogurt or nuts alongside."
+                }
+              ],
+              "duration_ms": 8500
+            },
+            {
+              "type": "body_week",
+              "background": "#F7F5F8",
+              "title": "Comfort without chaos",
+              "body": "Restriction + luteal hunger is a rough combo. Build a \u201cyes\u201d list: foods that satisfy and still leave you feeling okay an hour later.",
+              "image": "assets/cycle/images/luteal_comfort.jpg",
+              "detail_label": "Example:",
+              "detail_body": "Toast with peanut butter, warm oatmeal, or a cheese quesadilla can beat grazing on sweets alone.",
+              "duration_ms": 7000
+            },
+            {
+              "type": "tips",
+              "background": "#F7F5F8",
+              "title": "Movement for luteal",
+              "body": "Steady > heroic.",
+              "tips": [
+                {
+                  "title": "Strength or yoga",
+                  "body": "Maintain muscle without frying your nervous system."
+                },
+                {
+                  "title": "Walk after meals",
+                  "body": "10 minutes can ease bloat and mood."
+                },
+                {
+                  "title": "Deload week",
+                  "body": "If PMS is strong, cut volume and keep consistency."
+                },
+                {
+                  "title": "Stretch evenings",
+                  "body": "Hips and chest openers counter desk posture and tension."
+                },
+                {
+                  "title": "Skip punishment workouts",
+                  "body": "You don\u2019t owe your body exhaustion."
+                }
+              ],
+              "duration_ms": 8500
+            },
+            {
+              "type": "focus",
+              "background": "#F7F5F8",
+              "eyebrow": "Close",
+              "focus_word": "prep",
+              "title": "Prep for day 1",
+              "body": "If your period is near, restock protection, set out comfy clothes, and lower tomorrow\u2019s expectations a notch.",
+              "duration_ms": 6000,
+              "image": "assets/cycle/images/tip_rest.jpg"
+            }
+          ]
+        },
+        {
+          "id": "symptoms",
+          "card_title": "PMS & signals",
+          "card_image": "assets/cycle/images/luteal_calm.jpg",
+          "card_header_color": "#EEF2FC",
+          "pages": [
+            {
+              "type": "tips",
+              "background": "#F7F5F8",
+              "title": "PMS cluster many know",
+              "body": "You might get a few \u2014 not all.",
+              "tips": [
+                {
+                  "title": "Mood swings",
+                  "body": "Irritability, sadness, or anxiety rising premenstrually."
+                },
+                {
+                  "title": "Food cravings",
+                  "body": "Especially carbs and sweets in the evening."
+                },
+                {
+                  "title": "Breast tenderness",
+                  "body": "Supportive bras and gentler workouts may help."
+                },
+                {
+                  "title": "Bloat & constipation",
+                  "body": "Fiber + fluids + walking often help more than restriction."
+                },
+                {
+                  "title": "Brain fog",
+                  "body": "Write things down; reduce multitasking when possible."
+                }
+              ],
+              "duration_ms": 8500
+            },
+            {
+              "type": "focus",
+              "background": "#F7F5F8",
+              "eyebrow": "When PMS needs more help",
+              "focus_word": "PMDD",
+              "title": "There\u2019s a higher-support path",
+              "body": "If premenstrual symptoms are severe, disrupt work/relationships, or include hopelessness, talk to a clinician. PMDD and other conditions are real and treatable \u2014 don\u2019t tough it out alone.",
+              "duration_ms": 6000,
+              "image": "assets/cycle/images/tip_wellness.jpg"
+            },
+            {
+              "type": "tips",
+              "background": "#F7F5F8",
+              "title": "Luteal prep checklist",
+              "body": "Future-you will thank you.",
+              "tips": [
+                {
+                  "title": "Meal staples",
+                  "body": "Keep easy proteins and carbs stocked."
+                },
+                {
+                  "title": "Period kit",
+                  "body": "Protection + heat + pain relief you usually use (as advised by your clinician)."
+                },
+                {
+                  "title": "Calendar flag",
+                  "body": "Mark likely PMS days so you don\u2019t stack hard deadlines."
+                },
+                {
+                  "title": "Support person",
+                  "body": "Tell one trusted person what helps you."
+                },
+                {
+                  "title": "Log pattern",
+                  "body": "3 cycles of notes is already powerful data."
+                }
+              ],
+              "duration_ms": 8500
+            },
+            {
+              "type": "focus",
+              "background": "#F7F5F8",
+              "eyebrow": "Closing thought",
+              "focus_word": "cyclical",
+              "title": "Cyclical doesn\u2019t mean broken",
+              "body": "Needing different food, movement, and social dose across the month is human. Design for your phases \u2014 that\u2019s wisdom, not weakness.",
+              "duration_ms": 6000,
+              "image": "assets/cycle/images/luteal_comfort.jpg"
+            }
+          ]
+        }
+      ],
+      "what_to_expect": {
+        "title": "What to expect",
+        "items": [
+          {
+            "key": "pms",
+            "label": "PMS signals",
+            "image": "assets/cycle/images/luteal_calm.jpg",
+            "summary": "Bloat, tender breasts, mood shifts, and stronger hunger are common.",
+            "sections": [
+              {
+                "heading": "Support",
+                "body": "Sleep, walks, protein-rich meals, and fewer stacked deadlines help."
+              },
+              {
+                "heading": "Track",
+                "body": "Note which days are hardest so you can plan ahead next cycle."
+              },
+              {
+                "heading": "Seek help",
+                "body": "Severe mood symptoms deserve clinician support."
+              }
+            ]
+          },
+          {
+            "key": "food",
+            "label": "Appetite",
+            "image": "assets/cycle/images/luteal_comfort.jpg",
+            "summary": "Hunger can rise \u2014 fuel intentionally, skip the guilt spiral.",
+            "sections": [
+              {
+                "heading": "Idea",
+                "body": "Protein + complex carbs at dinner."
+              },
+              {
+                "heading": "Cravings",
+                "body": "Pair sweets with protein or nuts."
+              },
+              {
+                "heading": "Warm food",
+                "body": "Soups and cooked meals often feel better now."
+              }
+            ]
+          },
+          {
+            "key": "move",
+            "label": "Softer training",
+            "image": "assets/cycle/images/tip_exercise.jpg",
+            "summary": "Swap max intensity for steady strength, yoga, or walks when you feel flat.",
+            "sections": [
+              {
+                "heading": "Idea",
+                "body": "Maintain consistency with lower volume."
+              },
+              {
+                "heading": "Recovery",
+                "body": "Extra sleep beats another hard interval."
+              },
+              {
+                "heading": "Joy",
+                "body": "Choose movement that calms you."
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

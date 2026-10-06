@@ -1,0 +1,55 @@
+---
+description: Reuse backend utils (errors, helpers) and keep API code DRY
+globs: eezycycle-backend/**/*.{js,mjs,cjs}
+alwaysApply: false
+---
+
+# Backend Utilities & DRY
+
+Prefer existing `utils/` and shared middleware over copy-paste. If the same pattern appears twice, extract it.
+
+## Required building blocks
+
+| Need | Use | Path |
+|------|-----|------|
+| Thrown / next() API error | `createError` / `AppError` | `utils/error.js` |
+| Error codes | `ErrorCodes.*` | `utils/error.js` |
+| 404 handler | `notFound` | `utils/error.js` |
+| Global error response | `errorMiddleware` | `utils/error.js` |
+| Send error JSON | `sendError` | `utils/error.js` |
+
+Frontend-facing error shape (do not invent a second format):
+
+```json
+{
+  "success": false,
+  "error": { "code": "DEMO_ERROR", "message": "…", "statusCode": 400 }
+}
+```
+
+Success responses stay consistent: `{ success: true, data?: …, message?: … }`.
+
+## Examples
+
+```js
+// ❌ BAD
+res.status(400).json({ msg: 'bad' });
+throw new Error('cycle sync failed');
+
+// ✅ GOOD
+next(createError('cycle sync failed. Please try again.', 400, ErrorCodes.VALIDATION));
+// or: throw createError('…', 404, ErrorCodes.NOT_FOUND);
+```
+
+```js
+// ❌ BAD — duplicate date/cycle math in two controllers
+// ✅ GOOD — one function in services/ or utils/, both call it
+```
+
+## Rules
+
+1. User-facing messages live on `AppError.message` — safe to show in Flutter snackbars
+2. Never leak SQL / stack traces in JSON; log server-side only
+3. Controllers: parse → call service → `res.json`; no duplicated try/catch boilerplate if `errorMiddleware` handles it
+4. New shared helper → `utils/<name>.js`; export named functions; no god-files
+5. Do not add a second error class or response envelope alongside `utils/error.js`

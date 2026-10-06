@@ -1,0 +1,44 @@
+---
+description: Flutter frontend folder structure and naming for views, widgets, controllers
+globs: lib/**/*.dart
+alwaysApply: false
+---
+
+# Frontend Folder Structure
+
+Keep UI code in this layout. Do not invent parallel folders (`screens/`, `providers/`, `theme/`).
+
+```
+lib/
+├── views/<feature>/          # screens (*_view.dart)
+├── widgets/<type>/           # reusable UI (button/, text/, container/, …)
+├── controllers/<feature>/    # GetxControllers
+├── core/
+│   ├── constants/            # AppColors, AppImages, AppStrings
+│   ├── utils/                # AppTheme, AppSize, validators, …
+│   ├── extensions/
+│   ├── bindings/
+│   └── services/
+├── models/
+└── routes/app_pages.dart
+```
+
+## Naming
+
+| Layer | File | Class |
+|-------|------|-------|
+| Screen | `home_view.dart` | `HomeView` |
+| Controller | `home_controller.dart` | `HomeController` |
+| Widget | `custom_button.dart` | `CustomButton` |
+| Constants | `app_colors.dart` | `AppColors` |
+
+- Feature folders: `snake_case` (`secret_chats/`, `basic_need/`)
+- Routes: constants on `AppPages`; navigate with `Get.toNamed` / `Get.offNamed` / `Get.offAllNamed`
+- Screens prefer `GetView<XController>` + `Obx` over new state libraries
+
+## Placement rules
+
+- New screen → `lib/views/<feature>/`
+- Reusable UI used in 2+ places → `lib/widgets/<type>/` (not inside a view file)
+- One-off private UI → keep in the view file or a private file next to that view
+- Colors/assets/spacing → extend existing `core/` helpers; do not add a second source of truth
