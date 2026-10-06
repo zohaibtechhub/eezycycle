@@ -13,14 +13,14 @@ export function FeatureGrid() {
         title={homeFeaturesIntro.title}
         support={homeFeaturesIntro.support}
       />
-      <div className="grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
+      <div className="grid gap-4 sm:grid-cols-2 sm:gap-5 lg:grid-cols-3">
         {FEATURES.map((feature, i) => {
           const img = MARKETING_IMAGES[feature.imageKey];
           return (
             <Reveal key={feature.slug} delayMs={i * 60}>
               <Link
                 href={feature.href}
-                className="group block overflow-hidden rounded-2xl border border-border bg-surface transition hover:-translate-y-0.5 hover:shadow-xl hover:shadow-primary/10"
+                className="group flex h-full flex-col overflow-hidden rounded-2xl border border-border bg-surface transition hover:-translate-y-0.5 hover:shadow-xl hover:shadow-primary/10"
               >
                 <div className="relative aspect-[16/10] overflow-hidden bg-primary-light">
                   <Image
@@ -32,11 +32,11 @@ export function FeatureGrid() {
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-text-primary/40 to-transparent" />
                 </div>
-                <div className="p-5">
-                  <h3 className="font-display text-lg font-semibold text-text-primary group-hover:text-primary">
+                <div className="flex flex-1 flex-col p-4 sm:p-5">
+                  <h3 className="font-display text-base font-semibold text-text-primary group-hover:text-primary sm:text-lg">
                     {feature.title}
                   </h3>
-                  <p className="mt-2 text-sm leading-relaxed text-text-secondary">
+                  <p className="mt-2 flex-1 text-sm leading-relaxed text-text-secondary">
                     {feature.short}
                   </p>
                   <span className="mt-3 inline-block text-sm font-semibold text-primary">

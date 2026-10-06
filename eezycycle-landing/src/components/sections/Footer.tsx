@@ -9,9 +9,9 @@ export function Footer() {
   const year = new Date().getFullYear();
 
   return (
-    <footer className="border-t border-border bg-background pb-10 pt-14">
+    <footer className="border-t border-border bg-background pb-8 pt-10 sm:pb-10 sm:pt-14">
       <Container>
-        <div className="grid gap-10 sm:grid-cols-2 lg:grid-cols-4">
+        <div className="grid gap-8 sm:grid-cols-2 sm:gap-10 lg:grid-cols-4">
           <div className="sm:col-span-2 lg:col-span-1">
             <Link href="/" className="inline-flex items-center gap-2.5">
               <Image
@@ -19,7 +19,8 @@ export function Footer() {
                 alt={`${SITE_NAME} logo`}
                 width={40}
                 height={40}
-                className="h-10 w-10 rounded-xl object-contain"
+                className="h-9 w-9 rounded-xl object-contain sm:h-10 sm:w-10"
+                unoptimized
               />
               <span className="font-display text-lg font-semibold text-primary">
                 {SITE_NAME}
@@ -30,7 +31,7 @@ export function Footer() {
             </p>
             <Link
               href="/download"
-              className="mt-4 inline-flex rounded-xl bg-primary px-4 py-2.5 text-sm font-semibold text-white hover:bg-accent"
+              className="mt-4 inline-flex w-full items-center justify-center rounded-full bg-primary px-4 py-2.5 text-sm font-semibold text-white hover:bg-accent sm:w-auto"
             >
               Download the app
             </Link>

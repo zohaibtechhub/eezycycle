@@ -28,7 +28,7 @@ export function FeatureHero({
     MARKETING_IMAGES[feature?.imageKey ?? "period"] ?? MARKETING_IMAGES.period;
 
   return (
-    <section className="relative overflow-hidden pt-28 pb-16 sm:pt-32 sm:pb-20">
+    <section className="relative overflow-hidden pt-20 pb-10 sm:pt-28 sm:pb-16 md:pt-32 md:pb-20">
       <div className="absolute inset-0">
         <Image
           src={img.src}
@@ -42,13 +42,13 @@ export function FeatureHero({
           className="absolute inset-0"
           style={{
             background:
-              "linear-gradient(to bottom, rgba(250,247,248,0.88), rgba(253,240,243,0.92) 50%, var(--background))",
+              "linear-gradient(to bottom, rgba(250,247,248,0.9), rgba(253,240,243,0.94) 50%, var(--background))",
           }}
         />
       </div>
 
       <Container className="relative">
-        <p className="text-sm font-medium text-text-secondary">
+        <p className="text-xs font-medium text-text-secondary sm:text-sm">
           <Link href="/" className="hover:text-primary">
             Home
           </Link>
@@ -60,32 +60,34 @@ export function FeatureHero({
           <span className="text-text-primary">{content.eyebrow}</span>
         </p>
 
-        <div className="mt-8 grid items-center gap-12 lg:grid-cols-[1.05fr_0.95fr]">
-          <div>
+        <div className="mt-6 grid items-center gap-8 sm:mt-8 sm:gap-10 lg:grid-cols-2 lg:gap-12">
+          <div className="min-w-0 order-2 lg:order-1">
             <p
-              className={`font-display text-sm font-semibold uppercase tracking-wider ${accentMap[accent]}`}
+              className={`font-display text-xs font-semibold uppercase tracking-wider sm:text-sm ${accentMap[accent]}`}
             >
               {content.eyebrow}
             </p>
-            <h1 className="mt-3 max-w-xl font-display text-4xl font-semibold tracking-tight text-text-primary sm:text-5xl">
+            <h1 className="mt-2 font-display text-3xl font-semibold tracking-tight text-text-primary sm:mt-3 sm:text-4xl md:text-5xl">
               {content.title}
             </h1>
-            <p className="mt-5 max-w-lg text-lg leading-relaxed text-text-secondary">
+            <p className="mt-4 max-w-lg text-sm leading-relaxed text-text-secondary sm:mt-5 sm:text-base md:text-lg">
               {content.description}
             </p>
-            <div className="mt-8">
+            <div className="mt-6 w-full sm:mt-8 sm:w-auto">
               <DownloadButtons />
             </div>
-            <p className="mt-4 text-sm text-text-secondary">{content.ctaNote}</p>
+            <p className="mt-3 text-xs text-text-secondary sm:mt-4 sm:text-sm">
+              {content.ctaNote}
+            </p>
           </div>
 
-          <div className="relative mx-auto aspect-[4/5] w-full max-w-md overflow-hidden rounded-[1.75rem] border border-white/70 shadow-2xl shadow-primary/20">
+          <div className="relative order-1 mx-auto aspect-[4/3] w-full max-w-md overflow-hidden rounded-2xl border border-white/70 shadow-xl shadow-primary/15 sm:aspect-[5/4] sm:rounded-[1.75rem] lg:order-2 lg:aspect-[4/5] lg:max-w-none lg:shadow-2xl lg:shadow-primary/20">
             <Image
               src={img.src}
               alt={img.alt}
               fill
               className="object-cover"
-              sizes="(max-width: 1024px) 90vw, 420px"
+              sizes="(max-width: 1024px) 100vw, 420px"
               priority
             />
           </div>
@@ -97,16 +99,19 @@ export function FeatureHero({
 
 export function FeatureBullets({ bullets }: { bullets: string[] }) {
   return (
-    <section className="bg-background py-16 sm:py-20">
+    <section className="bg-background py-12 sm:py-16 md:py-20">
       <Container className="max-w-3xl">
-        <h2 className="font-display text-2xl font-semibold text-text-primary sm:text-3xl">
+        <h2 className="font-display text-xl font-semibold text-text-primary sm:text-2xl md:text-3xl">
           What you get
         </h2>
-        <ul className="mt-8 space-y-4">
+        <ul className="mt-6 space-y-3 sm:mt-8 sm:space-y-4">
           {bullets.map((b) => (
-            <li key={b} className="flex gap-3 text-base text-text-primary">
-              <span className="mt-2 h-2 w-2 shrink-0 rounded-full bg-primary" />
-              {b}
+            <li
+              key={b}
+              className="flex gap-3 text-sm text-text-primary sm:text-base"
+            >
+              <span className="mt-1.5 h-2 w-2 shrink-0 rounded-full bg-primary" />
+              <span className="min-w-0">{b}</span>
             </li>
           ))}
         </ul>

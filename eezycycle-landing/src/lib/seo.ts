@@ -8,7 +8,7 @@ export function organizationJsonLd() {
     name: SITE_NAME,
     url: SITE_URL,
     email: SUPPORT_EMAIL,
-    logo: `${SITE_URL}/icon.svg`,
+    logo: `${SITE_URL}/logo.png`,
   };
 }
 
@@ -18,7 +18,7 @@ export function softwareApplicationJsonLd() {
     "@type": "SoftwareApplication",
     name: SITE_NAME,
     applicationCategory: "HealthApplication",
-    operatingSystem: "Android",
+    operatingSystem: "Android,IOS",
     description:
       "Period, ovulation, and fertility estimates with pregnancy insights, partner support, and privacy-first design.",
     offers: {
