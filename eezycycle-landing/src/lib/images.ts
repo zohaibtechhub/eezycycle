@@ -1,14 +1,14 @@
 /**
- * Marketing graphics chosen for each feature section.
+ * Marketing photography for hero + feature tracks (Unsplash).
  */
 export const MARKETING_IMAGES = {
   hero: {
-    src: "https://plus.unsplash.com/premium_photo-1702598950954-747a986e8cc0?w=1600&auto=format&fit=crop&q=80",
-    alt: "Calendar with pads, tampons, and menstrual cup",
+    src: "https://plus.unsplash.com/premium_photo-1702598950954-747a986e8cc0?q=80&w=2070&auto=format&fit=crop",
+    alt: "Calendar and period care products on a mint background",
   },
   period: {
-    src: "https://plus.unsplash.com/premium_photo-1702598950954-747a986e8cc0?w=1600&auto=format&fit=crop&q=80",
-    alt: "Calendar with pads, tampons, and menstrual cup",
+    src: "https://plus.unsplash.com/premium_photo-1702598950954-747a986e8cc0?q=80&w=2070&auto=format&fit=crop",
+    alt: "Calendar and period care products on a mint background",
   },
   fertility: {
     src: "https://plus.unsplash.com/premium_photo-1681426704108-6dd2f750d3f0?q=80&w=1770&auto=format&fit=crop",
@@ -32,11 +32,11 @@ export const MARKETING_IMAGES = {
   },
   download: {
     src: "https://plus.unsplash.com/premium_photo-1702598582701-42f83a3f436e?q=80&w=1770&auto=format&fit=crop",
-    alt: "Calendar and period care products on a pink background",
+    alt: "Calendar and period care products on a soft pink background",
   },
   wellness: {
-    src: "https://images.unsplash.com/photo-1493894473891-10fc1e5dbd22?q=80&w=1769&auto=format&fit=crop",
-    alt: "Hands forming a heart on a pregnant belly",
+    src: "https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?q=80&w=1770&auto=format&fit=crop",
+    alt: "Woman practicing yoga outdoors for wellness",
   },
 } as const;
 

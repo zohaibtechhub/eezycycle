@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap");
 @import "tailwindcss";
 
 :root {
@@ -39,6 +40,16 @@
 
   /* Hero atmosphere (mint from period flat-lay photo) */
   --hero-mint: #b8d4c8;
+
+  /* Font defaults */
+  --font-geist-sans: "Plus Jakarta Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  --font-outfit: "Outfit", "Plus Jakarta Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  --font-geist-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+
+  /* Shadow & glow tokens */
+  --shadow-rose: 0 16px 36px -10px rgba(232, 80, 120, 0.18);
+  --shadow-card: 0 10px 30px -10px rgba(30, 23, 25, 0.06);
+  --shadow-hover: 0 20px 40px -12px rgba(232, 80, 120, 0.22);
 }
 
 @theme inline {

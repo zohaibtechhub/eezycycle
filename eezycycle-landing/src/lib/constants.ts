@@ -7,6 +7,7 @@ export const PLAY_STORE_URL = "";
 
 export const NAV_LINKS = [
   { href: "/features", label: "Features" },
+  { href: "/blog", label: "Articles" },
   { href: "/how-it-works", label: "How it works" },
   { href: "/faq", label: "FAQ" },
   { href: "/privacy", label: "Privacy" },

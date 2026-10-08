@@ -1,3 +1,4 @@
+import { BlogPreviewSection } from "@/components/sections/BlogPreviewSection";
 import { FeatureGrid } from "@/components/sections/FeatureGrid";
 import { GoalsSection } from "@/components/sections/GoalsSection";
 import { Hero } from "@/components/sections/Hero";
@@ -17,6 +18,7 @@ export default function HomePage() {
       <Hero />
       <GoalsSection />
       <FeatureGrid />
+      <BlogPreviewSection />
       <HowItWorksHome />
       <InsightsSection />
       <PartnerCommunitySection />

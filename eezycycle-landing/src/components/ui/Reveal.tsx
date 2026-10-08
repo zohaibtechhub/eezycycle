@@ -17,10 +17,7 @@ export function Reveal({
   const reduced = useReducedMotion();
 
   useEffect(() => {
-    if (reduced) {
-      setVisible(true);
-      return;
-    }
+    if (reduced) return;
     const el = ref.current;
     if (!el) return;
 
@@ -31,23 +28,25 @@ export function Reveal({
           observer.disconnect();
         }
       },
-      { threshold: 0.15, rootMargin: "0px 0px -40px 0px" },
+      { threshold: 0.15, rootMargin: "0px 0px -40px 0px" }
     );
 
     observer.observe(el);
     return () => observer.disconnect();
   }, [reduced]);
 
+  const isShown = visible || reduced;
+
   return (
     <div
       ref={ref}
       className={className}
       style={{
-        opacity: visible ? 1 : 0,
-        transform: visible || reduced ? "none" : "translateY(18px)",
+        opacity: isShown ? 1 : 0,
+        transform: isShown ? "none" : "translateY(14px)",
         transition: reduced
           ? "none"
-          : `opacity 0.7s ease ${delayMs}ms, transform 0.7s ease ${delayMs}ms`,
+          : `opacity 0.6s cubic-bezier(0.16, 1, 0.3, 1) ${delayMs}ms, transform 0.6s cubic-bezier(0.16, 1, 0.3, 1) ${delayMs}ms`,
       }}
     >
       {children}

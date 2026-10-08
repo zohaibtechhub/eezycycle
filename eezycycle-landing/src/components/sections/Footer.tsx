@@ -61,6 +61,11 @@ export function Footer() {
             </p>
             <ul className="mt-3 space-y-2 text-sm text-text-secondary">
               <li>
+                <Link href="/blog" className="text-primary font-medium hover:text-accent">
+                  Cycle & Health Articles
+                </Link>
+              </li>
+              <li>
                 <Link href="/how-it-works" className="hover:text-text-primary">
                   How it works
                 </Link>

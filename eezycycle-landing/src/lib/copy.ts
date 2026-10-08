@@ -4,7 +4,7 @@ export const hero = {
   brand: "EezyCycle",
   headline: "Your cycle, clearly mapped",
   support:
-    "EezyCycle helps you log periods, estimate ovulation and fertile days, follow pregnancy week by week, navigate perimenopause, invite a partner, and learn from trusted articles — privately, and free to start as a guest.",
+    "Log periods, estimate fertile days, and follow pregnancy week by week — privately, with guest mode free to start.",
   primaryCta: "Download the app",
   secondaryCta: "Explore features",
 } as const;

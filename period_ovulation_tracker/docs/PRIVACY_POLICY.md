@@ -6,7 +6,7 @@ This Privacy Policy explains how **EezyCycle** (“we”, “us”, or “our”
 
 EezyCycle is a personal wellness tool for period tracking, ovulation and fertility estimates, pregnancy-mode insights, education, and optional partner or community features. It is **not** a medical device and does **not** diagnose, treat, or prevent disease. Predictions are estimates. Always consult a qualified healthcare professional for medical decisions.
 
-For privacy requests, contact: **mail@eezycycle.eezybooking.com**
+For privacy requests, contact: **info@eezycycle.com**
 
 ---
 
@@ -156,7 +156,7 @@ Subject to applicable law, you may:
 
 - **Access / correct** profile and health logs in the App
 - **Export** your data (where available in Settings, or by contacting us)
-- **Delete** your account and associated health data via in-App controls (when available) or by emailing **mail@eezycycle.eezybooking.com**
+- **Delete** your account and associated health data via in-App controls (when available) or by emailing **info@eezycycle.com**
 - **Revoke** partner sharing and notification preferences in the App
 - **Withdraw consent** for health processing by deleting your data and stopping use of the App
 
@@ -192,6 +192,6 @@ We may update this Privacy Policy from time to time. We will revise the “Last 
 
 ## 15. Contact
 
-**Privacy / data requests:** mail@eezycycle.eezybooking.com
+**Privacy / data requests:** info@eezycycle.com
 
 You can also revisit this Privacy Policy and the Terms of Use from the App (drawer / legal screens) at any time.

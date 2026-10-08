@@ -1,5 +1,6 @@
 import type { MetadataRoute } from "next";
 import { FEATURES, SITE_URL } from "@/lib/constants";
+import { getAllBlogPosts } from "@/lib/blog";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const staticRoutes = [
@@ -9,15 +10,40 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "/how-it-works",
     "/faq",
     "/privacy",
+    "/blog",
   ];
 
   const featureRoutes = FEATURES.map((f) => f.href);
+  const blogRoutes = getAllBlogPosts().map((p) => `/blog/${p.slug}`);
 
-  return [...staticRoutes, ...featureRoutes].map((route) => ({
-    url: `${SITE_URL}${route}`,
-    lastModified: new Date(),
-    changeFrequency: route === "" || route === "/download" ? "weekly" : "monthly",
-    priority:
-      route === "" ? 1 : route === "/download" ? 0.95 : route.startsWith("/features") ? 0.8 : 0.7,
-  }));
+  const allRoutes = [...staticRoutes, ...featureRoutes, ...blogRoutes];
+
+  return allRoutes.map((route) => {
+    let priority = 0.7;
+    let changeFrequency: MetadataRoute.Sitemap[number]["changeFrequency"] = "monthly";
+
+    if (route === "") {
+      priority = 1.0;
+      changeFrequency = "weekly";
+    } else if (route === "/download") {
+      priority = 0.95;
+      changeFrequency = "weekly";
+    } else if (route === "/blog") {
+      priority = 0.9;
+      changeFrequency = "weekly";
+    } else if (route.startsWith("/blog/")) {
+      priority = 0.85;
+      changeFrequency = "monthly";
+    } else if (route.startsWith("/features")) {
+      priority = 0.8;
+      changeFrequency = "monthly";
+    }
+
+    return {
+      url: `${SITE_URL}${route}`,
+      lastModified: new Date(),
+      changeFrequency,
+      priority,
+    };
+  });
 }

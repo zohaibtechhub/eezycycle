@@ -1,5 +1,4 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono, Outfit } from "next/font/google";
 import {
   faqPageJsonLd,
   organizationJsonLd,
@@ -9,36 +8,22 @@ import {
 import { SITE_NAME, SITE_URL, SUPPORT_EMAIL } from "@/lib/constants";
 import "./globals.css";
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
-});
-
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
-});
-
-const outfit = Outfit({
-  variable: "--font-outfit",
-  subsets: ["latin"],
-  weight: ["400", "500", "600", "700"],
-});
-
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
   title: {
-    default: "EezyCycle — Period & Ovulation Tracker",
+    default: "EezyCycle — Period & Ovulation Tracker App | Private, Free & Doctor-Reviewed",
     template: "%s | EezyCycle",
   },
   description:
-    "Track your period, estimate ovulation and fertile days, explore pregnancy insights, and stay private. Guest-friendly. Estimates only — not medical advice.",
+    "Track your period, predict fertile windows, follow pregnancy week-by-week, and explore doctor-reviewed health articles. 100% private & guest-friendly.",
   keywords: [
     "period tracker",
-    "ovulation tracker",
-    "fertile window",
-    "pregnancy tracker",
+    "ovulation calculator",
+    "fertile window tracker",
+    "pregnancy week by week",
     "cycle calendar",
+    "doctor reviewed women health",
+    "PMS symptom tracker",
     "EezyCycle",
   ],
   authors: [{ name: SITE_NAME }],
@@ -54,16 +39,25 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     siteName: SITE_NAME,
-    title: "EezyCycle — Period & Ovulation Tracker",
+    title: "EezyCycle — Free Period & Ovulation Tracker App",
     description:
-      "Know your cycle with gentle predictions, daily insights, partner support, and privacy-first design.",
+      "Know your cycle with gentle predictions, doctor-reviewed insights, partner support, and privacy-first design.",
     url: SITE_URL,
+    images: [
+      {
+        url: "/logo.png",
+        width: 512,
+        height: 512,
+        alt: "EezyCycle - Period & Ovulation Tracker",
+      },
+    ],
   },
   twitter: {
     card: "summary_large_image",
     title: "EezyCycle — Period & Ovulation Tracker",
     description:
       "Period, ovulation, pregnancy & partner support — private by design.",
+    images: ["/logo.png"],
   },
   robots: { index: true, follow: true },
   alternates: { canonical: "/" },
@@ -72,7 +66,11 @@ export const metadata: Metadata = {
   },
 };
 
-export default function RootLayout({ children }: LayoutProps<"/">) {
+export default function RootLayout({
+  children,
+}: {
+  children: React.ReactNode;
+}) {
   const jsonLd = [
     organizationJsonLd(),
     softwareApplicationJsonLd(),
@@ -81,10 +79,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
   ];
 
   return (
-    <html
-      lang="en"
-      className={`${geistSans.variable} ${geistMono.variable} ${outfit.variable} h-full antialiased`}
-    >
+    <html lang="en" className="h-full antialiased">
       <body className="flex min-h-full flex-col bg-background text-text-primary">
         <script
           type="application/ld+json"
