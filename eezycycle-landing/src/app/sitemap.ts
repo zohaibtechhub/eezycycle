@@ -2,6 +2,8 @@ import type { MetadataRoute } from "next";
 import { FEATURES, SITE_URL } from "@/lib/constants";
 import { getAllBlogPosts } from "@/lib/blog";
 
+export const dynamic = "force-static";
+
 export default function sitemap(): MetadataRoute.Sitemap {
   const staticRoutes = [
     "",
@@ -41,7 +43,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
     return {
       url: `${SITE_URL}${route}`,
-      lastModified: new Date(),
+      lastModified: new Date("2026-10-08"),
       changeFrequency,
       priority,
     };
