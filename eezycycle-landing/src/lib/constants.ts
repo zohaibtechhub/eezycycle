@@ -2,8 +2,9 @@ export const SITE_URL = "https://www.eezycycle.com";
 export const SITE_NAME = "EezyCycle";
 export const SUPPORT_EMAIL = "info@eezycycle.com";
 
-/** Google Play — fill when listing is live; until then CTAs go to /download */
-export const PLAY_STORE_URL = "";
+/** Google Play */
+export const PLAY_STORE_URL =
+  "https://play.google.com/store/apps/details?id=com.app.eezycycle";
 
 export const NAV_LINKS = [
   { href: "/features", label: "Features" },

@@ -1,5 +1,8 @@
+import Link from "next/link";
+import { AndroidLogo } from "@/components/ui/AndroidLogo";
 import { Reveal } from "@/components/ui/Reveal";
 import { Section, SectionHeading } from "@/components/ui/Section";
+import { PLAY_STORE_URL } from "@/lib/constants";
 import { homeGoals } from "@/lib/copy";
 
 const GOAL_ICONS: Record<string, { icon: string; color: string; badgeBg: string }> = {
@@ -35,6 +38,9 @@ const GOAL_ICONS: Record<string, { icon: string; color: string; badgeBg: string 
   },
 };
 
+const storeHref = PLAY_STORE_URL || "/download";
+const storeExternal = Boolean(PLAY_STORE_URL);
+
 export function GoalsSection() {
   return (
     <Section className="bg-background relative">
@@ -52,7 +58,13 @@ export function GoalsSection() {
 
           return (
             <Reveal key={item.title} delayMs={i * 60}>
-              <div className="group relative flex h-full flex-col justify-between overflow-hidden rounded-3xl border border-border bg-surface p-6 sm:p-7 transition-all duration-300 hover:-translate-y-1 hover:border-primary/40 hover:shadow-xl hover:shadow-primary/10">
+              <Link
+                href={storeHref}
+                {...(storeExternal
+                  ? { target: "_blank", rel: "noopener noreferrer" }
+                  : {})}
+                className="group relative flex h-full flex-col justify-between overflow-hidden rounded-3xl border border-border bg-surface p-6 sm:p-7 transition-all duration-300 hover:-translate-y-1 hover:border-primary/40 hover:shadow-xl hover:shadow-primary/10"
+              >
                 {/* Ambient hover wash */}
                 <div className="pointer-events-none absolute -right-12 -top-12 h-32 w-32 rounded-full bg-primary/5 blur-2xl group-hover:bg-primary/10 transition-colors" />
 
@@ -77,11 +89,22 @@ export function GoalsSection() {
                   </p>
                 </div>
 
-                <div className="mt-6 flex items-center gap-1.5 text-xs font-semibold text-primary">
-                  <span>Customized insights in app</span>
-                  <span className="transition-transform group-hover:translate-x-1">→</span>
+                <div className="mt-6 flex items-center justify-between gap-3">
+                  <div className="flex items-center gap-1.5 text-xs font-semibold text-primary">
+                    <span>Customized insights in app</span>
+                    <span className="transition-transform group-hover:translate-x-1">
+                      →
+                    </span>
+                  </div>
+                  <span
+                    className="inline-flex items-center gap-1.5 rounded-full border border-border bg-background px-2.5 py-1 text-[11px] font-semibold text-text-secondary transition-colors group-hover:border-primary/30 group-hover:text-primary"
+                    aria-hidden
+                  >
+                    <AndroidLogo size={14} />
+                    Android
+                  </span>
                 </div>
-              </div>
+              </Link>
             </Reveal>
           );
         })}

@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import { AndroidLogo } from "@/components/ui/AndroidLogo";
 import { PLAY_STORE_URL } from "@/lib/constants";
 
 type Size = "md" | "lg";
@@ -15,11 +16,12 @@ export function DownloadButtons({
   light?: boolean;
 }) {
   const href = PLAY_STORE_URL || "/download";
+  const external = Boolean(PLAY_STORE_URL);
   const pad =
     size === "lg"
       ? "px-6 py-3.5 text-sm sm:px-7 sm:text-base"
       : "px-5 py-2.5 text-sm";
-  const iconSize = size === "lg" ? 20 : 16;
+  const iconSize = size === "lg" ? 22 : 18;
   const wrap =
     align === "center" ? "justify-center" : "justify-start";
 
@@ -31,10 +33,13 @@ export function DownloadButtons({
     <div className={`flex w-full sm:w-auto ${wrap}`}>
       <Link
         href={href}
+        {...(external
+          ? { target: "_blank", rel: "noopener noreferrer" }
+          : {})}
         className={`inline-flex w-full items-center justify-center gap-2.5 rounded-full font-semibold tracking-tight transition-transform duration-200 hover:scale-[1.02] focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary sm:w-auto ${pad} ${styles}`}
       >
-        <DownloadIcon size={iconSize} />
-        Download the app
+        <AndroidLogo size={iconSize} />
+        Get it on Google Play
       </Link>
     </div>
   );
@@ -70,25 +75,5 @@ export function DownloadBand({
         </div>
       </div>
     </section>
-  );
-}
-
-function DownloadIcon({ size = 20 }: { size?: number }) {
-  return (
-    <svg
-      width={size}
-      height={size}
-      viewBox="0 0 24 24"
-      fill="none"
-      stroke="currentColor"
-      strokeWidth="2.25"
-      strokeLinecap="round"
-      strokeLinejoin="round"
-      aria-hidden
-    >
-      <path d="M12 3v12" />
-      <path d="m7 10 5 5 5-5" />
-      <path d="M5 19h14" />
-    </svg>
   );
 }

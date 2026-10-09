@@ -155,7 +155,7 @@ export const faqItems = [
     id: "download",
     question: "Where do I download EezyCycle?",
     answer:
-      "Download the EezyCycle app from our Download page (Google Play). Until the listing is live, that page will show the latest link.",
+      "Download the EezyCycle app from Google Play, or use the Download page on this site for the latest Android link.",
   },
   {
     id: "account",
