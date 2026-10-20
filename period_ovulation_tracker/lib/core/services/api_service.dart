@@ -75,7 +75,7 @@ class ApiClient {
   /// - Physical device → your Mac LAN IP (e.g. http://10.0.1.46:3000/api/)
   static String get _defaultBaseUrl {
     if (Platform.isAndroid) {
-      return 'https://eezycycle.eezybooking.com/api/';
+      return 'https://api.eezycycle.com/api/';
       // return 'http://10.0.2.2:3000/api/';
     }
     return 'http://127.0.0.1:3000/api/';
